@@ -192,50 +192,61 @@ html{overflow-x:clip}
   </div>
 </header>
 
-<svg class="desert" viewBox="0 0 937 161" role="img" aria-label="Desert sunset: sun setting behind layered hills with saguaro cacti">
+<svg class="desert" viewBox="0 0 937 161" role="img" aria-label="Sunset over the sertão: flat-topped hills, the São Francisco river and mandacaru cacti">
   <defs>
-    <linearGradient id="dsky" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#f7a42c"/>
-      <stop offset=".27" stop-color="#f9be2f"/>
-      <stop offset=".43" stop-color="#f6b12f"/>
-      <stop offset=".54" stop-color="#f69f2b"/>
-      <stop offset=".70" stop-color="#f38225"/>
-      <stop offset=".86" stop-color="#ee6320"/>
-      <stop offset="1" stop-color="#ed5b1f"/>
+    <linearGradient id="dsky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e2582a"/>
+      <stop offset=".45" stop-color="#f28a2e"/>
+      <stop offset=".8" stop-color="#fbc24f"/>
     </linearGradient>
-    <radialGradient id="dglow" cx="257" cy="128" r="170" gradientUnits="userSpaceOnUse">
-      <stop offset=".45" stop-color="#ffe46a" stop-opacity="1"/>
-      <stop offset=".62" stop-color="#fdd44c" stop-opacity=".75"/>
-      <stop offset="1" stop-color="#fbc53b" stop-opacity="0"/>
+    <radialGradient id="dglow" cx="704" cy="104" r="190" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#ffe9a0"/>
+      <stop offset=".45" stop-color="#fdcf5a" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#f7a63c" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="driver" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7b955"/>
+      <stop offset="1" stop-color="#d9772f"/>
+    </linearGradient>
   </defs>
   <rect width="937" height="161" fill="url(#dsky)"/>
   <rect width="937" height="161" fill="url(#dglow)"/>
-  <circle cx="257" cy="131" r="83" fill="#fef9e1"/>
-  <!-- serra ao fundo -->
-  <path fill="#c4732a" d="M0 161V100L3 95L37 68L97 71L170 80L190 89L300 120L333 125L397 77L447 90L520 118L630 117L743 77L765 87L880 110L915 125L920 118L937 117V161Z"/>
-  <!-- cacto pequeno -->
-  <g stroke="#843f1c" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path stroke-width="7.5" d="M377 66V122"/>
-    <path stroke-width="6" d="M357 76V95Q357 101 363 101H377M387 89V102Q387 107 381 107H377"/>
+  <circle cx="704" cy="106" r="40" fill="#fff4d6"/>
+  <g stroke="#7a3518" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".75">
+    <path d="M420 34q5-5 10 0q5-5 10 0M452 48q4-4 8 0q4-4 8 0M508 26q4-4 8 0q4-4 8 0"/>
   </g>
-  <!-- duna marrom -->
-  <path fill="#843f1c" d="M0 161V102L20 113L150 93L200 91L330 125L470 80L487 77L560 100L643 118L855 61Q868 85 880 100Q893 112 920 118V161Z"/>
-  <!-- primeiro plano -->
-  <path fill="#333" d="M0 161V138L43 128L113 91L140 100L300 157L333 153L482 115L567 147L843 112L937 147V161Z"/>
-  <!-- cacto grande -->
-  <g stroke="#333" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path stroke-width="15" d="M695 7V140"/>
-    <path stroke-width="12" d="M667 38V74Q667 83 676 83H695M719 61V90Q719 97 712 97H695"/>
+  <!-- chapadas ao fundo -->
+  <path fill="#d2843c" d="M0 161V108L48 104H128L150 94H290L318 106L455 109L492 90H598L626 104H668L700 110L770 107L806 96H937V161Z"/>
+  <!-- serras do meio -->
+  <path fill="#8e4722" d="M0 161V126Q90 108 200 120T420 116Q520 108 600 124T790 120Q870 112 937 118V161Z"/>
+  <!-- rio -->
+  <rect y="134" width="937" height="16" fill="url(#driver)"/>
+  <g stroke="#fff4d6" stroke-linecap="round" opacity=".85">
+    <path stroke-width="2" d="M680 138H728M690 142H718M697 146H711"/>
+    <path stroke-width="1" opacity=".6" d="M120 140H160M300 144H330M520 139H548M840 145H870"/>
   </g>
-  <!-- tufo no topo da duna -->
-  <g stroke="#333" stroke-width="1.6" stroke-linecap="round" fill="none">
-    <path d="M140 100L134 86M140 100L137 84M140 100L142 85M140 100L146 88M140 100L151 92M140 100L129 91M140 100L126 95M140 100L152 97"/>
+  <!-- margem -->
+  <path fill="#2e2926" d="M0 161V118Q60 114 118 124Q180 136 250 146Q500 154 760 149Q840 132 937 128V161Z"/>
+  <!-- mandacaru -->
+  <g stroke="#2e2926" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path stroke-width="10" d="M78 122V22"/>
+    <path stroke-width="7" d="M78 92H60Q54 92 54 86V44M78 80H96Q102 80 102 74V36M78 106H44Q38 106 38 100V70M78 98H114Q120 98 120 92V62"/>
   </g>
-  <!-- agave -->
-  <g stroke="#333" stroke-width="2.6" stroke-linecap="round" fill="none">
-    <path d="M572 152Q562 120 556 92M576 152Q572 130 575 108M580 152Q582 130 590 118M584 152Q594 135 614 124M568 152Q560 140 552 134M574 152Q566 130 559 117M588 152Q600 142 605 132"/>
+  <!-- xique-xique -->
+  <g stroke="#2e2926" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M150 133Q152 120 162 116M150 133Q140 122 132 124M152 133Q166 128 178 132M146 133Q144 118 148 108"/>
   </g>
+  <!-- mandacaru pequeno -->
+  <g stroke="#2e2926" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path stroke-width="5" d="M232 146V112"/>
+    <path stroke-width="3.5" d="M232 132H224Q221 132 221 129V118M232 126H240Q243 126 243 123V114"/>
+  </g>
+  <!-- umbuzeiro -->
+  <g stroke="#2e2926" stroke-linecap="round" fill="none">
+    <path stroke-width="5" d="M872 132Q870 116 874 104"/>
+    <path stroke-width="3" d="M874 106Q858 96 840 98M874 106Q886 94 906 92M873 112Q860 108 852 112M875 104Q874 90 868 82M875 108Q894 106 912 110"/>
+  </g>
+  <path fill="#2e2926" d="M832 100Q850 84 872 88Q880 74 898 80Q922 82 920 98Q930 108 912 112Q880 104 864 104Q840 108 832 100Z"/>
 </svg>
 
 <main>
