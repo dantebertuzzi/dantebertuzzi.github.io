@@ -1,0 +1,98 @@
+# Pacotes da Tabela 1. activity = commits por semana nas últimas 52 semanas
+# (GitHub /stats/commit_activity, da mais antiga para a mais recente).
+
+- name: MicroSUS.jl
+  slug: microsus
+  url: https://dantebertuzzi.github.io/MicroSUS.jl/
+  code: https://github.com/dantebertuzzi/MicroSUS.jl
+  docs: https://dantebertuzzi.github.io/MicroSUS.jl/
+  domain: health
+  version: "0.5.1"
+  description: "DATASUS microdata with constant-memory streaming reads of .dbc/.dbf and typed schemas for SIM, SINASC, SIH, SIA, CNES and SINAN."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 3, 0, 4, 0, 0, 0, 17, 1, 2, 0, 0, 33, 1, 0, 0, 0, 0, 9, 0]
+
+- name: BRElections.jl
+  slug: brelections
+  url: https://github.com/dantebertuzzi/BRElections.jl
+  code: https://github.com/dantebertuzzi/BRElections.jl
+  domain: elections
+  version: "0.4.1"
+  description: "TSE electoral data — candidates, votes by polling station, assets, electorate — with no ZIPs to unpack and no Latin-1 to deal with."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 5, 0, 0, 0, 2, 2, 0, 0, 0, 0, 20, 8, 0, 2, 0, 0, 0]
+
+- name: ElectionForensics.jl
+  slug: electionforensics
+  url: https://github.com/dantebertuzzi/ElectionForensics.jl
+  code: https://github.com/dantebertuzzi/ElectionForensics.jl
+  domain: elections
+  version: "0.1.0"
+  description: "Rozenas, Benford and last-digit tests that measure their own type I error on your data before you conclude anything."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+- name: DeBRief.jl
+  slug: debrief
+  url: https://dantebertuzzi.github.io/DeBRief.jl/
+  code: https://github.com/dantebertuzzi/DeBRief.jl
+  docs: https://dantebertuzzi.github.io/DeBRief.jl/
+  domain: public safety
+  version: "0.1.4"
+  description: "Crime statistics from MJSP/Sinesp under one stable schema across years of shifting layouts, with per-100k rates."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2, 2, 0, 3, 0, 3, 0, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0]
+
+- name: BCB.jl
+  slug: bcb
+  url: https://github.com/dantebertuzzi/BCB.jl
+  code: https://github.com/dantebertuzzi/BCB.jl
+  domain: economics
+  version: "0.1.0"
+  description: "Central Bank of Brazil APIs: SGS series, PTAX exchange rates, Focus expectations and a generic OData query builder."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+- name: OBISClient.jl
+  slug: obisclient
+  url: https://dantebertuzzi.github.io/OBISClient.jl/
+  code: https://github.com/dantebertuzzi/OBISClient.jl
+  docs: https://dantebertuzzi.github.io/OBISClient.jl/
+  domain: biodiversity
+  version: "0.2.0"
+  description: "An independent client for OBIS, the Ocean Biodiversity Information System (IOC/UNESCO)."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 1, 0, 0, 10, 0, 0, 0, 0, 0, 1]
+
+- name: MissingPatterns.jl
+  slug: missingpatterns
+  url: https://dantebertuzzi.github.io/MissingPatterns.jl/
+  code: https://github.com/dantebertuzzi/MissingPatterns.jl
+  docs: https://dantebertuzzi.github.io/MissingPatterns.jl/
+  domain: data quality
+  version: "0.8.0"
+  description: "Missing-data patterns in the terminal: heatmaps, md.pattern()-style summaries and co-occurrence, zero plotting dependencies."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 0, 0, 1, 4, 0, 0, 1, 13, 1, 0, 0, 0, 0, 7, 0, 0, 0, 5, 1]
+
+- name: Perth.jl
+  slug: perth
+  url: https://dantebertuzzi.github.io/Perth.jl/
+  code: https://github.com/dantebertuzzi/Perth.jl
+  docs: https://dantebertuzzi.github.io/Perth.jl/
+  domain: tools
+  version: "0.16.1"
+  description: "Gantt and Kanban driven from the REPL, with a local web UI and real-time sharing over the LAN."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 3, 21, 76, 42, 0, 4, 10, 8, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+
+- name: Kanon.jl
+  slug: kanon
+  url: https://dantebertuzzi.github.io/Kanon.jl/
+  code: https://github.com/dantebertuzzi/Kanon.jl
+  docs: https://dantebertuzzi.github.io/Kanon.jl/
+  domain: tools
+  version: "0.1.0"
+  description: "A document template language whose templates declare their own data contract."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 6, 21, 0, 0, 3, 1, 0, 0, 0, 0, 0]
+
+- name: Liquid.jl
+  slug: liquid
+  url: https://github.com/dantebertuzzi/Liquid.jl
+  code: https://github.com/dantebertuzzi/Liquid.jl
+  domain: tools
+  version: "0.1.0"
+  description: "The Liquid template language in pure Julia; rendering never evaluates Julia code."
+  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

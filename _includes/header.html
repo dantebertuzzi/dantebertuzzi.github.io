@@ -1,0 +1,16 @@
+<header class="bar-top">
+  <div class="mono who"><b>{{ site.author.short }}</b> &nbsp;{{ site.author.place }} &nbsp;{{ site.author.coords }}</div>
+  <div class="tools">
+    <div class="langs" role="group" aria-label="Language" data-i18n="a_lang" data-i18n-attr="aria-label">
+      {%- for l in site.languages %}
+      <button type="button" data-lang="{{ l.code }}" lang="{{ l.code }}" aria-pressed="{% if l.code == site.lang %}true{% else %}false{% endif %}" aria-label="{{ l.name }}" title="{{ l.name }}">{% include flags/{{ l.code }}.svg %}</button>
+      {%- endfor %}
+    </div>
+    <div class="themes" role="group" aria-label="Colour theme" data-i18n="a_theme" data-i18n-attr="aria-label">
+      {%- for t in site.themes %}
+      <button type="button" data-set="{{ t }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"><span class="sw {{ t }}"></span><span class="lbl-t"{% unless t == "caatinga" %} data-i18n="t_{{ t }}"{% endunless %}>{{ t }}</span></button>
+      {%- endfor %}
+    </div>
+    <a class="gh" href="{{ site.github }}">{% include icon-github.svg %}GitHub</a>
+  </div>
+</header>

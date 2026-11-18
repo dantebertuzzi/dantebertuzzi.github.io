@@ -1,0 +1,18 @@
+{%- comment -%}
+  Barras de commits por semana. include.weeks = lista de contagens.
+  Altura proporcional ao máximo da série, com mínimo de 1 px para ficar visível.
+{%- endcomment -%}
+{%- assign peak = include.weeks | sort | last | at_least: 1 -%}
+<svg class="spark" viewBox="0 0 104 22" aria-hidden="true">
+  {%- for n in include.weeks -%}
+    {%- assign x = forloop.index0 | times: 2 -%}
+    {%- if n > 0 -%}
+      {%- assign h = n | times: 22.0 | divided_by: peak | at_least: 1.0 | round: 1 -%}
+      {%- assign cls = "sp" -%}
+    {%- else -%}
+      {%- assign h = 1.0 -%}
+      {%- assign cls = "sp0" -%}
+    {%- endif -%}
+    <rect x="{{ x }}" y="{{ 22.0 | minus: h | round: 1 }}" width="1.4" height="{{ h }}" class="{{ cls }}"/>
+  {%- endfor -%}
+</svg>

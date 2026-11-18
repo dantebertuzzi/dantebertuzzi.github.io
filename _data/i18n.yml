@@ -1,0 +1,223 @@
+# Traduções. O inglês está no próprio conteúdo; cada chave casa com um data-i18n.
+it:
+  title: Dante Bertuzzi — statistica, Julia, dati pubblici
+  a_lang: Lingua
+  a_theme: Tema di colore
+  t_auto: auto
+  t_paper: carta
+  t_night: notte
+  a_desert: 'Tramonto sul sertão: altipiani dalla cima piatta, il fiume São Francisco e cactus mandacaru'
+  k1: Portfolio
+  k2: Documento di lavoro n. 1
+  k3: Novembre 2026
+  dek: Statistico. Scrivo pacchetti Julia che rendono riproducibili i dati pubblici brasiliani — e studio il clima del luogo in cui vivo.
+  abs_l: Sommario
+  abs: 'I dati pubblici in Brasile sono ricchi e difficili da raggiungere: file DBC compressi, codifiche Latin-1, tracciati che cambiano da una versione all’altra. Il mio lavoro assorbe questo caos una volta sola, in pacchetti Julia open source, così l’analisi può partire dalla domanda invece che dal formato del file. Finora dieci pacchetti coprono registri sanitari, elezioni, statistiche sulla criminalità, la banca centrale, la biodiversità oceanica, la qualità dei dati, i modelli di documento e la gestione di progetti. Scrivo anche ricerca riproducibile: il mio ultimo preprint stima che un anno secco come il 2012/13, un tempo atteso circa ogni 38 anni a Petrolina, ora arrivi circa ogni 12.'
+  kw: 'Parole chiave: statistica · Julia · dati pubblici · riproducibilità · semiarido'
+  fig_title: Precipitazioni per anno idrologico, Petrolina, dal 1963/64 al 2020/21
+  fig_desc: Barre per 47 anni con dati validi. Le precipitazioni diminuiscono di circa 60 mm per decennio. Gli anni più secchi sono il 2011/12, il 2012/13 e il 2016/17, tutti vicini a 150 mm.
+  fig_norm: normale 1963–2009 · 549 mm
+  fig_trend: tendenza -60 mm / decennio
+  nodata: giorni validi insufficienti
+  fig_l: "<b>Figura 1</b>"
+  fig_c: 'Precipitazioni per anno idrologico alla stazione INMET 82983, Petrolina, 1963/64–2020/21 (47 anni con dati validi; i cerchi vuoti indicano gli anni senza). Tratteggio: la normale ufficiale 1963–2009. Linea continua: una tendenza di Sen–Theil stimata qui sulla stessa serie, −60 mm per decennio; l’articolo riporta −60 [−87; −33]. <span class="pull">Un anno secco è rumore. Sei decenni di anni secchi sono una tendenza.</span>'
+  s1h: Pacchetti
+  s1l: 'Julia open source, scritto per essere letto: schemi tipizzati, poche dipendenze, Tables.jl ovunque sia possibile.'
+  tbl_l: "<b>Tabella 1</b>"
+  tbl_c: L’attività è il numero di commit a settimana nelle ultime 52 settimane, da GitHub. Seleziona l’intestazione di una colonna per ordinare.
+  th_pkg: Pacchetto
+  th_dom: Ambito
+  th_ver: Versione
+  th_act: Attività, 52 sett.
+  th_lnk: Link
+  d_microsus: Microdati DATASUS con letture in streaming a memoria costante di .dbc/.dbf e schemi tipizzati per SIM, SINASC, SIH, SIA, CNES e SINAN.
+  d_brelections: Dati elettorali del TSE — candidati, voti per seggio, patrimoni, elettorato — senza ZIP da estrarre né Latin-1 da gestire.
+  d_electionforensics: Test di Rozenas, di Benford e dell’ultima cifra che misurano il proprio errore di primo tipo sui tuoi dati prima che tu concluda qualcosa.
+  d_debrief: Statistiche sulla criminalità del MJSP/Sinesp in un unico schema stabile, nonostante anni di tracciati mutevoli, con tassi per 100 mila abitanti.
+  d_bcb: 'API della Banca Centrale del Brasile: serie SGS, tassi di cambio PTAX, aspettative Focus e un generatore generico di query OData.'
+  d_obisclient: Un client indipendente per OBIS, l’Ocean Biodiversity Information System (IOC/UNESCO).
+  d_missingpatterns: 'Pattern di dati mancanti nel terminale: heatmap, riepiloghi in stile md.pattern() e co-occorrenze, nessuna dipendenza grafica.'
+  d_perth: Gantt e Kanban gestiti dal REPL, con un’interfaccia web locale e condivisione in tempo reale sulla rete locale.
+  d_kanon: Un linguaggio per modelli di documento i cui modelli dichiarano il proprio contratto sui dati.
+  d_liquid: Il linguaggio di template Liquid in Julia puro; il rendering non valuta mai codice Julia.
+  dom_health: Salute
+  dom_elections: Elezioni
+  dom_public_safety: Sicurezza pubblica
+  dom_economics: Economia
+  dom_biodiversity: Biodiversità
+  dom_data_quality: Qualità dei dati
+  dom_tools: Strumenti
+  l_code: codice
+  l_docs: doc
+  s2h: Ricerca
+  s2l: Ogni numero nel testo è generato dal codice, con test unitari e una verifica indipendente in Python.
+  cite_code: codice e dati
+  u1: mm / decennio
+  u2: "°C / decennio"
+  u3: anni
+  u4: stazioni
+  st1: Tendenza delle precipitazioni annue fino al 2020/21, intervallo al 95% da −87 a −33.
+  st2: Temperatura minima. La massima è salita di +0,28 °C per decennio.
+  st3: 'Tempo di ritorno di un anno secco come il 2012/13: clima stazionario contro media recente.'
+  st4: Analisi regionale di frequenza, verificata con i pluviometri ANA e le normali INMET.
+  s3h: Metodi
+  s3l: Come lavoro, in quattro regole.
+  m1h: <span class="mono">3.1</span>Assorbire il caos una volta sola
+  m2h: <span class="mono">3.2</span>Verificare l’ipotesi nulla prima di fidarsene
+  m3h: <span class="mono">3.3</span>Ogni numero viene dal codice
+  m4h: <span class="mono">3.4</span>Poche dipendenze, superficie ridotta
+  m1p: File DBC, Latin-1, tracciati che cambiano da un anno all’altro — gestiti dentro il pacchetto, così nessuno a valle deve farlo.
+  m2p: Diverse ipotesi nulle classiche della forensica elettorale non valgono per i conteggi dei voti. Il pacchetto misura il tasso di errore che ottiene davvero sui tuoi dati.
+  m3p: 'Gli articoli sono generati, non digitati: figure, tabelle e numeri nel testo escono tutti dalla stessa esecuzione riproducibile.'
+  m4p: Heatmap nel terminale senza librerie grafiche; client API senza HTTP.jl. Veloci da caricare, facili da mantenere.
+  s4h: Corrispondenza
+  s4p: Issue, pull request e domande su qualsiasi pacchetto sono benvenute lì.
+  foot: Composto in JetBrains Mono · nessun tracker · <a href="https://github.com/dantebertuzzi/dantebertuzzi.github.io">sorgente</a>
+hu:
+  title: Dante Bertuzzi — statisztika, Julia, közadatok
+  a_lang: Nyelv
+  a_theme: Színtéma
+  t_auto: auto
+  t_paper: papír
+  t_night: éjszaka
+  a_desert: 'Naplemente a sertão felett: lapos tetejű fennsíkok, a São Francisco folyó és mandacaru kaktuszok'
+  k1: Portfólió
+  k2: 1. munkaanyag
+  k3: 2026. november
+  dek: Statisztikus vagyok. Julia-csomagokat írok, amelyek reprodukálhatóvá teszik a brazil közadatokat — és annak a helynek az éghajlatát kutatom, ahol élek.
+  abs_l: Összefoglaló
+  abs: 'Brazília közadatai gazdagok, de nehezen hozzáférhetők: tömörített DBC-fájlok, Latin-1 kódolás, kiadásról kiadásra változó szerkezet. A munkám ezt a káoszt egyszer, nyílt forráskódú Julia-csomagokban kezeli, így az elemzés a kérdésnél kezdődhet, nem a fájlformátumnál. Eddig tíz csomag fedi le az egészségügyi nyilvántartásokat, a választásokat, a bűnügyi statisztikákat, a központi bankot, az óceáni biodiverzitást, az adatminőséget, a dokumentumsablonokat és a projektmenedzsmentet. Reprodukálható kutatást is végzek: legutóbbi preprintem szerint egy olyan száraz év, mint a 2012/13-as, amely Petrolinában korábban nagyjából 38 évente fordult elő, ma körülbelül 12 évente jön el.'
+  kw: 'Kulcsszavak: statisztika · Julia · közadatok · reprodukálhatóság · félszáraz éghajlat'
+  fig_title: Csapadék hidrológiai évenként, Petrolina, 1963/64–2020/21
+  fig_desc: Oszlopok 47, érvényes adattal rendelkező évre. A csapadék évtizedenként körülbelül 60 mm-rel csökken. A legszárazabb évek a 2011/12-es, a 2012/13-as és a 2016/17-es, mindegyik 150 mm körül.
+  fig_norm: normál 1963–2009 · 549 mm
+  fig_trend: trend -60 mm / évtized
+  nodata: kevés az érvényes nap
+  fig_l: "<b>1. ábra</b>"
+  fig_c: 'Csapadék hidrológiai évenként az INMET 82983-as állomásán, Petrolina, 1963/64–2020/21 (47 év érvényes adattal; az üres karikák az adat nélküli éveket jelölik). Szaggatott vonal: az 1963–2009-es hivatalos normál érték. Folytonos vonal: ugyanerre a sorra itt illesztett Sen–Theil-trend, évtizedenként −60 mm; a tanulmány −60 [−87; −33] értéket közöl. <span class="pull">Egy száraz év csak zaj. Hat évtizednyi száraz év már trend.</span>'
+  s1h: Csomagok
+  s1l: 'Nyílt forráskódú Julia, olvasásra írva: típusos sémák, kevés függőség, Tables.jl mindenhol, ahol illik.'
+  tbl_l: "<b>1. táblázat</b>"
+  tbl_c: Az aktivitás a heti commitok száma az elmúlt 52 hétben, a GitHub adatai alapján. A rendezéshez válassz egy oszlopfejlécet.
+  th_pkg: Csomag
+  th_dom: Terület
+  th_ver: Verzió
+  th_act: Aktivitás, 52 hét
+  th_lnk: Linkek
+  d_microsus: DATASUS-mikroadatok állandó memóriaigényű, folyamatos .dbc/.dbf olvasással és típusos sémákkal a SIM, SINASC, SIH, SIA, CNES és SINAN rendszerekhez.
+  d_brelections: A TSE választási adatai — jelöltek, szavazókörönkénti szavazatok, vagyonnyilatkozatok, választópolgárok — kicsomagolandó ZIP-ek és Latin-1 nélkül.
+  d_electionforensics: Rozenas-, Benford- és utolsószámjegy-tesztek, amelyek a te adataidon mérik meg saját elsőfajú hibájukat, mielőtt bármire következtetnél.
+  d_debrief: Az MJSP/Sinesp bűnügyi statisztikái egyetlen stabil sémában, az évről évre változó szerkezet ellenére, 100 ezer lakosra vetített arányokkal.
+  d_bcb: 'A Brazil Központi Bank API-jai: SGS-idősorok, PTAX-árfolyamok, Focus-várakozások és egy általános OData-lekérdezésépítő.'
+  d_obisclient: Független kliens az OBIS-hoz, az Ocean Biodiversity Information Systemhez (IOC/UNESCO).
+  d_missingpatterns: 'Hiányzóadat-mintázatok a terminálban: hőtérképek, md.pattern()-stílusú összegzések és együttes előfordulások, ábrázolási függőségek nélkül.'
+  d_perth: Gantt és Kanban a REPL-ből vezérelve, helyi webes felülettel és valós idejű megosztással a helyi hálózaton.
+  d_kanon: Dokumentumsablon-nyelv, amelynek sablonjai maguk deklarálják az adatszerződésüket.
+  d_liquid: A Liquid sablonnyelv tisztán Juliában; a renderelés soha nem futtat Julia-kódot.
+  dom_health: Egészségügy
+  dom_elections: Választások
+  dom_public_safety: Közbiztonság
+  dom_economics: Közgazdaságtan
+  dom_biodiversity: Biodiverzitás
+  dom_data_quality: Adatminőség
+  dom_tools: Eszközök
+  l_code: kód
+  l_docs: dokumentáció
+  s2h: Kutatás
+  s2l: A szövegben minden szám kódból születik, egységtesztekkel és független Python-ellenőrzéssel.
+  cite_code: kód és adatok
+  u1: mm / évtized
+  u2: "°C / évtized"
+  u3: év
+  u4: állomás
+  st1: 'Az éves csapadék trendje 2020/21-ig, 95%-os intervallum: −87 és −33 között.'
+  st2: Minimumhőmérséklet. A maximum évtizedenként +0,28 °C-kal nőtt.
+  st3: 'A 2012/13-ashoz hasonlóan száraz év visszatérési ideje: stacionárius éghajlat vs. a közelmúlt átlaga.'
+  st4: Regionális gyakoriságelemzés, az ANA csapadékmérőivel és az INMET normál értékeivel ellenőrizve.
+  s3h: Módszerek
+  s3l: Így dolgozom, négy szabályban.
+  m1h: <span class="mono">3.1</span>A káoszt egyszer kell kezelni
+  m2h: <span class="mono">3.2</span>Előbb ellenőrizd a nullhipotézist, csak aztán bízz benne
+  m3h: <span class="mono">3.3</span>Minden szám kódból származik
+  m4h: <span class="mono">3.4</span>Kevés függőség, kis felület
+  m1p: DBC-fájlok, Latin-1, évről évre változó szerkezet — mindezt a csomag kezeli, hogy később senkinek se kelljen.
+  m2p: Több klasszikus választási-forenzikai nullhipotézis nem teljesül a szavazatszámokra. A csomag megméri, mekkora hibaarányt ad valójában a te adataidon.
+  m3p: 'A tanulmányokat generálom, nem begépelem: az ábrák, a táblázatok és a szövegben szereplő számok mind ugyanabból a reprodukálható futtatásból jönnek.'
+  m4p: Hőtérképek a terminálban ábrázolókönyvtár nélkül; API-kliensek HTTP.jl nélkül. Gyorsan betöltődnek, könnyű karbantartani őket.
+  s4h: Kapcsolat
+  s4p: Ott szívesen fogadok issue-kat, pull requesteket és kérdéseket bármelyik csomagról.
+  foot: JetBrains Mono betűtípussal · követők nélkül · <a href="https://github.com/dantebertuzzi/dantebertuzzi.github.io">forráskód</a>
+ro:
+  title: Dante Bertuzzi — statistică, Julia, date publice
+  a_lang: Limbă
+  a_theme: Temă de culori
+  t_auto: auto
+  t_paper: hârtie
+  t_night: noapte
+  a_desert: 'Apus de soare peste sertão: platouri cu vârful plat, râul São Francisco și cactuși mandacaru'
+  k1: Portofoliu
+  k2: Document de lucru nr. 1
+  k3: Noiembrie 2026
+  dek: Statistician. Scriu pachete Julia care fac reproductibile datele publice din Brazilia — și studiez clima locului în care trăiesc.
+  abs_l: Rezumat
+  abs: 'Datele publice din Brazilia sunt bogate și greu de accesat: fișiere DBC comprimate, codificări Latin-1, structuri care se schimbă de la o versiune la alta. Munca mea rezolvă această dezordine o singură dată, în pachete Julia open-source, astfel încât analiza să poată începe de la întrebare, nu de la formatul fișierului. Până acum, zece pachete acoperă registre de sănătate, alegeri, statistici despre criminalitate, banca centrală, biodiversitatea oceanică, calitatea datelor, șabloane de documente și managementul proiectelor. Fac și cercetare reproductibilă: cel mai recent preprint al meu estimează că un an la fel de secetos ca 2012/13, care odinioară era de așteptat cam o dată la 38 de ani în Petrolina, vine acum cam o dată la 12.'
+  kw: 'Cuvinte-cheie: statistică · Julia · date publice · reproductibilitate · semiarid'
+  fig_title: Precipitații pe an hidrologic, Petrolina, 1963/64–2020/21
+  fig_desc: Bare pentru 47 de ani cu date valide. Precipitațiile scad cu aproximativ 60 mm pe deceniu. Cei mai secetoși ani sunt 2011/12, 2012/13 și 2016/17, toți în jur de 150 mm.
+  fig_norm: normala 1963–2009 · 549 mm
+  fig_trend: tendință -60 mm / deceniu
+  nodata: zile valide insuficiente
+  fig_l: "<b>Figura 1</b>"
+  fig_c: 'Precipitații pe an hidrologic la stația INMET 82983, Petrolina, 1963/64–2020/21 (47 de ani cu date valide; cercurile goale marchează anii fără date). Linie întreruptă: norma oficială 1963–2009. Linie continuă: o tendință Sen–Theil ajustată aici pe aceeași serie, −60 mm pe deceniu; lucrarea raportează −60 [−87; −33]. <span class="pull">Un an secetos e zgomot. Șase decenii de ani secetoși sunt o tendință.</span>'
+  s1h: Pachete
+  s1l: 'Julia open-source, scris ca să fie citit: scheme tipizate, puține dependențe, Tables.jl oriunde se potrivește.'
+  tbl_l: "<b>Tabelul 1</b>"
+  tbl_c: Activitatea reprezintă numărul de commit-uri pe săptămână din ultimele 52 de săptămâni, de pe GitHub. Selectează antetul unei coloane pentru a sorta.
+  th_pkg: Pachet
+  th_dom: Domeniu
+  th_ver: Versiune
+  th_act: Activitate, 52 săpt.
+  th_lnk: Linkuri
+  d_microsus: Microdate DATASUS, cu citire în flux a fișierelor .dbc/.dbf la memorie constantă și scheme tipizate pentru SIM, SINASC, SIH, SIA, CNES și SINAN.
+  d_brelections: Date electorale TSE — candidați, voturi pe secție de votare, averi, electorat — fără arhive ZIP de dezarhivat și fără Latin-1 de gestionat.
+  d_electionforensics: Teste Rozenas, Benford și ale ultimei cifre, care își măsoară propria eroare de tip I pe datele tale înainte să tragi vreo concluzie.
+  d_debrief: Statistici despre criminalitate de la MJSP/Sinesp într-o singură schemă stabilă, în ciuda anilor de structuri schimbătoare, cu rate la 100.000 de locuitori.
+  d_bcb: 'API-urile Băncii Centrale a Braziliei: serii SGS, cursuri de schimb PTAX, așteptări Focus și un constructor generic de interogări OData.'
+  d_obisclient: Un client independent pentru OBIS, Ocean Biodiversity Information System (IOC/UNESCO).
+  d_missingpatterns: 'Tipare de date lipsă în terminal: hărți termice, rezumate în stilul md.pattern() și co-apariții, fără nicio dependență grafică.'
+  d_perth: Gantt și Kanban controlate din REPL, cu o interfață web locală și partajare în timp real în rețeaua locală.
+  d_kanon: Un limbaj de șabloane de documente ale cărui șabloane își declară singure contractul de date.
+  d_liquid: Limbajul de șabloane Liquid în Julia pur; randarea nu evaluează niciodată cod Julia.
+  dom_health: Sănătate
+  dom_elections: Alegeri
+  dom_public_safety: Siguranță publică
+  dom_economics: Economie
+  dom_biodiversity: Biodiversitate
+  dom_data_quality: Calitatea datelor
+  dom_tools: Instrumente
+  l_code: cod
+  l_docs: documentație
+  s2h: Cercetare
+  s2l: Fiecare număr din text este generat de cod, cu teste unitare și o verificare independentă în Python.
+  cite_code: cod și date
+  u1: mm / deceniu
+  u2: "°C / deceniu"
+  u3: ani
+  u4: stații
+  st1: Tendința precipitațiilor anuale până în 2020/21, interval de încredere 95% între −87 și −33.
+  st2: Temperatura minimă. Maxima a crescut cu +0,28 °C pe deceniu.
+  st3: 'Perioada de revenire a unui an la fel de secetos ca 2012/13: climă staționară față de media recentă.'
+  st4: Analiză regională de frecvență, verificată cu pluviometrele ANA și normalele INMET.
+  s3h: Metode
+  s3l: Cum lucrez, în patru reguli.
+  m1h: <span class="mono">3.1</span>Rezolvă dezordinea o singură dată
+  m2h: <span class="mono">3.2</span>Verifică ipoteza nulă înainte să te bazezi pe ea
+  m3h: <span class="mono">3.3</span>Fiecare număr vine din cod
+  m4h: <span class="mono">3.4</span>Puține dependențe, suprafață mică
+  m1p: Fișiere DBC, Latin-1, structuri care se schimbă de la an la an — gestionate în interiorul pachetului, ca nimeni după tine să nu mai fie nevoit s-o facă.
+  m2p: Mai multe ipoteze nule clasice din criminalistica electorală nu sunt valabile pentru numărul de voturi. Pachetul măsoară rata de eroare pe care o obține efectiv pe datele tale.
+  m3p: 'Lucrările sunt generate, nu tastate: figurile, tabelele și numerele din text ies toate din aceeași rulare reproductibilă.'
+  m4p: Hărți termice în terminal fără bibliotecă grafică; clienți API fără HTTP.jl. Se încarcă repede și sunt ușor de întreținut.
+  s4h: Corespondență
+  s4p: Issue-urile, pull request-urile și întrebările despre orice pachet sunt binevenite acolo.
+  foot: Cules în JetBrains Mono · fără trackere · <a href="https://github.com/dantebertuzzi/dantebertuzzi.github.io">sursă</a>
