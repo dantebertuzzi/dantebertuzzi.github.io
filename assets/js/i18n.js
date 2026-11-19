@@ -1,7 +1,8 @@
 import translations from "./translations.js";
 import { load, save } from "./storage.js";
 
-const LANGS = ["en", "it", "hu", "ro"];
+// O inglês está no HTML; os demais idiomas vêm do arquivo de traduções.
+const LANGS = ["en", ...Object.keys(translations)];
 const NO_DATA = "not enough valid days";
 
 function pickInitial() {

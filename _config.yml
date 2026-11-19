@@ -18,6 +18,7 @@ repository: https://github.com/dantebertuzzi/dantebertuzzi.github.io
 # Idiomas do seletor (o inglês é o idioma do conteúdo)
 languages:
   - { code: en, name: English }
+  - { code: pt, name: Português }
   - { code: it, name: Italiano }
   - { code: hu, name: Magyar }
   - { code: ro, name: Română }
