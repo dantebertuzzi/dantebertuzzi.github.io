@@ -1,19 +1,15 @@
 import translations from "./translations.js";
 import { load, save } from "./storage.js";
 
-// O inglês está no HTML; os demais idiomas vêm do arquivo de traduções.
-const LANGS = ["en", ...Object.keys(translations)];
-const NO_DATA = "not enough valid days";
+// O português está no HTML (idioma padrão); os demais vêm do arquivo de traduções.
+const BASE = "pt";
+const LANGS = [BASE, ...Object.keys(translations)];
+const NO_DATA = "dias válidos insuficientes";
 
-function pickInitial() {
+const pickInitial = () => {
   const saved = load("lang");
-  if (LANGS.includes(saved)) return saved;
-  for (const tag of navigator.languages || [navigator.language || ""]) {
-    const code = String(tag).slice(0, 2).toLowerCase();
-    if (LANGS.includes(code)) return code;
-  }
-  return "en";
-}
+  return LANGS.includes(saved) ? saved : BASE;
+};
 
 export function initLanguage() {
   const root = document.documentElement;
@@ -21,11 +17,11 @@ export function initLanguage() {
   const barTitles = document.querySelectorAll("#fig1 svg title");
   const buttons = document.querySelectorAll(".langs button");
 
-  // O inglês do HTML é a referência para voltar ao idioma original.
-  const english = { title: document.title };
+  // Guarda o texto original do HTML para poder voltar ao português.
+  const base = { title: document.title, lang: root.lang };
   nodes.forEach((el) => {
     const attr = el.dataset.i18nAttr;
-    english[el.dataset.i18n] = attr ? el.getAttribute(attr) : el.innerHTML;
+    base[el.dataset.i18n] = attr ? el.getAttribute(attr) : el.innerHTML;
   });
   barTitles.forEach((t) => (t.dataset.orig = t.textContent));
 
@@ -33,21 +29,21 @@ export function initLanguage() {
     const dict = translations[lang] ?? {};
     nodes.forEach((el) => {
       const key = el.dataset.i18n;
-      const value = dict[key] ?? english[key];
+      const value = dict[key] ?? base[key];
       const attr = el.dataset.i18nAttr;
       if (attr) el.setAttribute(attr, value);
       else el.innerHTML = value;
     });
-    document.title = dict.title ?? english.title;
+    document.title = dict.title ?? base.title;
     barTitles.forEach((t) => {
       t.textContent = dict.nodata ? t.dataset.orig.replace(NO_DATA, dict.nodata) : t.dataset.orig;
     });
-    root.lang = lang;
+    root.lang = lang === BASE ? base.lang : lang;
     buttons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
   }
 
   const initial = pickInitial();
-  if (initial !== "en") setLang(initial);
+  if (initial !== BASE) setLang(initial);
 
   buttons.forEach((b) =>
     b.addEventListener("click", () => {

@@ -1,78 +1,78 @@
-# Traduções. O inglês está no próprio conteúdo; cada chave casa com um data-i18n.
-pt:
-  title: Dante Bertuzzi — estatística, Julia, dados públicos
-  a_lang: Idioma
-  a_theme: Tema de cores
+# Traduções. O português está no próprio conteúdo; cada chave casa com um data-i18n.
+en:
+  a_lang: Language
+  a_theme: Colour theme
   t_auto: auto
-  t_paper: papel
-  t_night: noite
-  a_desert: 'Pôr do sol no sertão: chapadas, o rio São Francisco e mandacarus'
-  k1: Portfólio
-  k2: Texto para discussão nº 1
-  k3: Novembro de 2026
-  dek: Estatístico. Escrevo pacotes Julia que tornam reprodutíveis os dados públicos brasileiros — e estudo o clima do lugar onde moro.
-  abs_l: Resumo
-  abs: 'Os dados públicos no Brasil são ricos e difíceis de alcançar: arquivos DBC comprimidos, codificação Latin-1, layouts que mudam a cada nova versão. Meu trabalho absorve essa bagunça uma vez só, em pacotes Julia de código aberto, para que a análise comece pela pergunta e não pelo formato do arquivo. Até agora, dez pacotes cobrem registros de saúde, eleições, estatísticas criminais, o Banco Central, biodiversidade marinha, qualidade de dados, modelos de documentos e gestão de projetos. Também faço pesquisa reprodutível: meu preprint mais recente estima que um ano tão seco quanto 2012/13, antes esperado a cada 38 anos em Petrolina, agora acontece a cada 12, aproximadamente.'
-  kw: 'Palavras-chave: estatística · Julia · dados públicos · reprodutibilidade · semiárido'
-  fig_title: Chuva por ano hidrológico, Petrolina, de 1963/64 a 2020/21
-  fig_desc: Barras para 47 anos com dados válidos. A chuva cai cerca de 60 mm por década. Os anos mais secos são 2011/12, 2012/13 e 2016/17, todos perto de 150 mm.
+  t_paper: paper
+  t_night: night
+  a_desert: 'Sunset over the sertão: flat-topped hills, the São Francisco river and mandacaru cacti'
+  k1: Portfolio
+  k2: Working paper no. 1
+  k3: November 2026
+  dek: Statistician. I write Julia packages that make Brazilian public data reproducible — and I study the climate of the place I live.
+  abs_l: Abstract
+  abs: 'Public data in Brazil is rich and hard to reach: compressed DBC files, Latin-1 encodings, layouts that change between releases. My work absorbs that mess once, in open-source Julia packages, so the analysis can start at the question instead of at the file format. Ten packages so far cover health records, elections, crime statistics, the central bank, ocean biodiversity, data quality, document templating and project management. I also write reproducible research: my latest preprint estimates that a year as dry as 2012/13, once expected about every 38 years in Petrolina, now comes about every 12.'
+  kw: 'Keywords: statistics · Julia · public data · reproducibility · semi-arid'
+  fig_title: Rainfall per hydrological year, Petrolina, 1963/64 to 2020/21
+  fig_desc: Bars for 47 years with valid data. Rainfall falls by about 60 mm per decade. The driest years are 2011/12, 2012/13 and 2016/17, all near 150 mm.
   fig_norm: normal 1963–2009 · 549 mm
-  fig_trend: tendência -60 mm / década
-  nodata: dias válidos insuficientes
-  fig_l: "<b>Figura 1</b>"
-  fig_c: 'Chuva por ano hidrológico na estação 82983 do INMET, Petrolina, 1963/64–2020/21 (47 anos com dados válidos; círculos vazados marcam os anos sem dados). Tracejado: a normal oficial 1963–2009. Contínuo: uma tendência de Sen–Theil ajustada aqui à mesma série, −60 mm por década; o artigo relata −60 [−87; −33]. <span class="pull">Um ano seco é ruído. Seis décadas deles são tendência.</span>'
-  s1h: Pacotes
-  s1l: 'Julia de código aberto, escrito para ser lido: esquemas tipados, poucas dependências, Tables.jl sempre que couber.'
-  tbl_l: "<b>Tabela 1</b>"
-  tbl_c: Atividade é o número de commits por semana nas últimas 52 semanas, segundo o GitHub. Selecione o cabeçalho de uma coluna para ordenar.
-  th_pkg: Pacote
-  th_dom: Área
-  th_ver: Versão
-  th_act: Atividade, 52 sem.
+  fig_trend: trend -60 mm / decade
+  fig_l: "<b>Figure 1</b>"
+  fig_c: 'Rainfall per hydrological year at INMET station 82983, Petrolina, 1963/64–2020/21 (47 years with valid data; hollow dots mark years without). Dashed: the 1963–2009 official normal. Solid: a Sen–Theil trend fitted here to the same series, −60 mm per decade; the paper reports −60 [−87; −33]. <span class="pull">One dry year is noise. Six decades of them are a trend.</span>'
+  s1h: Packages
+  s1l: 'Open-source Julia, written to be read: typed schemas, few dependencies, Tables.jl everywhere it fits.'
+  tbl_l: "<b>Table 1</b>"
+  tbl_c: Activity is commits per week over the last 52 weeks, from GitHub. Select a column header to sort.
+  th_pkg: Package
+  th_dom: Domain
+  th_ver: Version
+  th_act: Activity, 52 wk
   th_lnk: Links
-  d_microsus: Microdados do DATASUS com leitura em streaming de .dbc/.dbf com memória constante e esquemas tipados para SIM, SINASC, SIH, SIA, CNES e SINAN.
-  d_brelections: Dados eleitorais do TSE — candidatos, votos por seção, bens declarados, eleitorado — sem ZIP para descompactar e sem Latin-1 para tratar.
-  d_electionforensics: Testes de Rozenas, de Benford e do último dígito que medem o próprio erro tipo I nos seus dados antes de você concluir qualquer coisa.
-  d_debrief: Estatísticas criminais do MJSP/Sinesp num esquema único e estável, apesar de anos de layouts diferentes, com taxas por 100 mil habitantes.
-  d_bcb: 'APIs do Banco Central do Brasil: séries do SGS, câmbio PTAX, expectativas do Focus e um construtor genérico de consultas OData.'
-  d_obisclient: Um cliente independente para o OBIS, o Ocean Biodiversity Information System (COI/UNESCO).
-  d_missingpatterns: 'Padrões de dados faltantes no terminal: mapas de calor, resumos no estilo md.pattern() e coocorrência, sem nenhuma dependência gráfica.'
-  d_perth: Gantt e Kanban comandados pelo REPL, com interface web local e compartilhamento em tempo real na rede local.
-  d_kanon: Uma linguagem de modelos de documento cujos modelos declaram o próprio contrato de dados.
-  d_liquid: A linguagem de templates Liquid em Julia puro; a renderização nunca executa código Julia.
-  dom_health: Saúde
-  dom_elections: Eleições
-  dom_public_safety: Segurança pública
-  dom_economics: Economia
-  dom_biodiversity: Biodiversidade
-  dom_data_quality: Qualidade de dados
-  dom_tools: Ferramentas
-  l_code: código
+  d_microsus: DATASUS microdata with constant-memory streaming reads of .dbc/.dbf and typed schemas for SIM, SINASC, SIH, SIA, CNES and SINAN.
+  dom_health: Health
+  l_code: code
   l_docs: docs
-  s2h: Pesquisa
-  s2l: Todo número no texto é gerado pelo código, com testes unitários e uma verificação independente em Python.
-  cite_code: código e dados
-  u1: mm / década
-  u2: "°C / década"
-  u3: anos
-  u4: estações
-  st1: Tendência da chuva anual até 2020/21, intervalo de 95% de −87 a −33.
-  st2: Temperatura mínima. A máxima subiu +0,28 °C por década.
-  st3: 'Tempo de retorno de um ano tão seco quanto 2012/13: clima estacionário vs. média recente.'
-  st4: Análise regional de frequência, conferida com os pluviômetros da ANA e as normais do INMET.
-  s3h: Métodos
-  s3l: Como trabalho, em quatro regras.
-  m1h: <span class="mono">3.1</span>Absorver a bagunça uma vez só
-  m2h: <span class="mono">3.2</span>Testar a hipótese nula antes de confiar nela
-  m3h: <span class="mono">3.3</span>Todo número vem do código
-  m4h: <span class="mono">3.4</span>Poucas dependências, superfície pequena
-  m1p: Arquivos DBC, Latin-1, layouts que mudam de um ano para outro — tudo resolvido dentro do pacote, para que ninguém depois precise resolver.
-  m2p: Várias hipóteses nulas clássicas da forense eleitoral não valem para contagens de votos. O pacote mede a taxa de erro que de fato entrega nos seus dados.
-  m3p: 'Artigos são gerados, não digitados: figuras, tabelas e os números do texto saem todos da mesma execução reprodutível.'
-  m4p: Mapas de calor no terminal sem biblioteca gráfica; clientes de API sem HTTP.jl. Rápidos de carregar, fáceis de manter.
-  s4h: Correspondência
-  s4p: Issues, pull requests e dúvidas sobre qualquer pacote são bem-vindos lá.
-  foot: Composto em JetBrains Mono · sem rastreadores · <a href="https://github.com/dantebertuzzi/dantebertuzzi.github.io">código-fonte</a>
+  d_brelections: TSE electoral data — candidates, votes by polling station, assets, electorate — with no ZIPs to unpack and no Latin-1 to deal with.
+  dom_elections: Elections
+  d_electionforensics: Rozenas, Benford and last-digit tests that measure their own type I error on your data before you conclude anything.
+  d_debrief: Crime statistics from MJSP/Sinesp under one stable schema across years of shifting layouts, with per-100k rates.
+  dom_public_safety: Public safety
+  d_bcb: 'Central Bank of Brazil APIs: SGS series, PTAX exchange rates, Focus expectations and a generic OData query builder.'
+  dom_economics: Economics
+  d_obisclient: An independent client for OBIS, the Ocean Biodiversity Information System (IOC/UNESCO).
+  dom_biodiversity: Biodiversity
+  d_missingpatterns: 'Missing-data patterns in the terminal: heatmaps, md.pattern()-style summaries and co-occurrence, zero plotting dependencies.'
+  dom_data_quality: Data quality
+  d_perth: Gantt and Kanban driven from the REPL, with a local web UI and real-time sharing over the LAN.
+  dom_tools: Tools
+  d_kanon: A document template language whose templates declare their own data contract.
+  d_liquid: The Liquid template language in pure Julia; rendering never evaluates Julia code.
+  s2h: Research
+  s2l: Every number in the text is generated by the code, with unit tests and an independent check in Python.
+  cite_code: code &amp; data
+  u1: mm / decade
+  st1: Annual rainfall trend up to 2020/21, 95% interval −87 to −33.
+  u2: "°C / decade"
+  st2: Minimum temperature. Maximum rose +0.28 °C per decade.
+  u3: years
+  st3: Return period of a year as dry as 2012/13, stationary climate vs. recent mean.
+  u4: stations
+  st4: Regional frequency analysis, cross-checked with ANA rain gauges and INMET normals.
+  s3h: Methods
+  s3l: How I work, in four rules.
+  m1h: <span class="mono">3.1</span>Absorb the mess once
+  m1p: DBC files, Latin-1, layouts that drift between years — handled inside the package, so nobody downstream has to.
+  m2h: <span class="mono">3.2</span>Check the null before trusting it
+  m2p: Several classical election-forensics nulls do not hold for vote counts. The package measures the error rate it actually delivers on your data.
+  m3h: <span class="mono">3.3</span>Every number comes from code
+  m3p: 'Papers are generated, not typed: figures, tables and the numbers in the prose all come out of the same reproducible run.'
+  m4h: <span class="mono">3.4</span>Few dependencies, small surface
+  m4p: Terminal heatmaps with no plotting library; API clients without HTTP.jl. Fast to load, easy to keep alive.
+  s4h: Correspondence
+  s4p: Issues, pull requests and questions about any package are welcome there.
+  foot: Set in JetBrains Mono · no trackers · <a href="https://github.com/dantebertuzzi/dantebertuzzi.github.io">source</a>
+  title: Dante Bertuzzi — statistics, Julia, public data
+  nodata: not enough valid days
 it:
   title: Dante Bertuzzi — statistica, Julia, dati pubblici
   a_lang: Lingua

@@ -13,7 +13,8 @@ _layouts/default.html    HTML skeleton
 _includes/               head, header, footer, section heading, figure,
                          packages table, sparkline, flags, icons
 _data/packages.yml       Table 1: packages and weekly commits (52 weeks)
-_data/i18n.yml           Portuguese, Italian, Hungarian and Romanian strings
+_data/i18n.yml           English, Italian, Hungarian and Romanian strings
+_data/domains.yml        Portuguese labels for the Table 1 domains
 assets/css/style.css     all styles (four colour themes)
 assets/js/               ES modules: theme, language, table sorting
 assets/img/              favicon and the sertão banner
@@ -22,8 +23,8 @@ assets/img/              favicon and the sertão banner
 
 ## Translations
 
-English is written in the content itself. Every translatable element carries
-`data-i18n="key"`, and `_data/i18n.yml` holds the same key for `pt`, `it`, `hu` and
+Portuguese (pt-BR) is the default language and is written in the content itself. Every translatable element carries
+`data-i18n="key"`, and `_data/i18n.yml` holds the same key for `en`, `it`, `hu` and
 `ro`. Jekyll turns that file into `assets/js/translations.js`; a new language
 needs its strings there plus an entry in `languages` in `_config.yml` and a
 flag in `_includes/flags/`.

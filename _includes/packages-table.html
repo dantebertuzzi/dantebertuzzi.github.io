@@ -1,11 +1,11 @@
-<div class="tbl-cap"><span class="mono" data-i18n="tbl_l"><b>Table 1</b></span><span data-i18n="tbl_c">Activity is commits per week over the last 52 weeks, from GitHub. Select a column header to sort.</span></div>
+<div class="tbl-cap"><span class="mono" data-i18n="tbl_l"><b>Tabela 1</b></span><span data-i18n="tbl_c">Atividade é o número de commits por semana nas últimas 52 semanas, segundo o GitHub. Selecione o cabeçalho de uma coluna para ordenar.</span></div>
 <table id="pkgs">
   <thead><tr>
     <th scope="col">#</th>
-    <th scope="col" aria-sort="none"><button type="button" data-key="name" data-i18n="th_pkg">Package</button></th>
-    <th scope="col" aria-sort="none"><button type="button" data-key="domain" data-i18n="th_dom">Domain</button></th>
-    <th scope="col" aria-sort="none"><button type="button" data-key="version" data-type="ver" data-i18n="th_ver">Version</button></th>
-    <th scope="col" aria-sort="none"><button type="button" data-key="commits" data-type="num" data-i18n="th_act">Activity, 52 wk</button></th>
+    <th scope="col" aria-sort="none"><button type="button" data-key="name" data-i18n="th_pkg">Pacote</button></th>
+    <th scope="col" aria-sort="none"><button type="button" data-key="domain" data-i18n="th_dom">Área</button></th>
+    <th scope="col" aria-sort="none"><button type="button" data-key="version" data-type="ver" data-i18n="th_ver">Versão</button></th>
+    <th scope="col" aria-sort="none"><button type="button" data-key="commits" data-type="num" data-i18n="th_act">Atividade, 52 sem.</button></th>
     <th scope="col" data-i18n="th_lnk">Links</th>
   </tr></thead>
   <tbody>
@@ -15,10 +15,10 @@
     <tr data-name="{{ p.name | downcase }}" data-domain="{{ p.domain }}" data-version="{{ p.version }}" data-commits="{{ commits }}">
       <td class="c-n">{{ forloop.index }}</td>
       <th scope="row" class="c-pkg"><a href="{{ p.url }}">{{ p.name }}</a><span class="desc" data-i18n="d_{{ p.slug }}">{{ p.description }}</span></th>
-      <td class="c-dom" data-i18n="dom_{{ p.domain | replace: ' ', '_' }}">{{ p.domain | capitalize }}</td>
+      <td class="c-dom" data-i18n="dom_{{ p.domain | replace: ' ', '_' }}">{{ site.data.domains[p.domain] }}</td>
       <td class="c-ver">{{ p.version }}</td>
       <td class="c-act">{% include sparkline.html weeks=p.activity %}<span class="n">{{ commits }}</span></td>
-      <td class="c-lnk"><a href="{{ p.code }}" data-i18n="l_code">code</a>{% if p.docs %} · <a href="{{ p.docs }}" data-i18n="l_docs">docs</a>{% endif %}</td>
+      <td class="c-lnk"><a href="{{ p.code }}" data-i18n="l_code">código</a>{% if p.docs %} · <a href="{{ p.docs }}" data-i18n="l_docs">docs</a>{% endif %}</td>
     </tr>
   {%- endfor %}
   </tbody>

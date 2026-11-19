@@ -1,12 +1,12 @@
 # Site
 title: Dante Bertuzzi
-tagline: statistics, Julia, public data
+tagline: estatística, Julia, dados públicos
 description: >-
-  Dante Bertuzzi, statistician in Petrolina, Brazil. Open-source Julia packages
-  for Brazilian public data and reproducible research on the climate of the semi-arid.
+  Dante Bertuzzi, estatístico em Petrolina (PE). Pacotes Julia de código aberto
+  para dados públicos brasileiros e pesquisa reprodutível sobre o clima do semiárido.
 url: https://dantebertuzzi.github.io
 baseurl: ""
-lang: en
+lang: pt-BR
 author:
   name: Dante Bertuzzi
   short: D. Bertuzzi
@@ -15,16 +15,20 @@ author:
 github: https://github.com/dantebertuzzi
 repository: https://github.com/dantebertuzzi/dantebertuzzi.github.io
 
-# Idiomas do seletor (o inglês é o idioma do conteúdo)
+# Idiomas do seletor (o português é o idioma do conteúdo)
 languages:
-  - { code: en, name: English }
   - { code: pt, name: Português }
+  - { code: en, name: English }
   - { code: it, name: Italiano }
   - { code: hu, name: Magyar }
   - { code: ro, name: Română }
 
-# Temas de cor
-themes: [auto, paper, night, caatinga]
+# Temas de cor (key = nome interno, label = texto no botão)
+themes:
+  - { key: auto, label: auto }
+  - { key: paper, label: papel }
+  - { key: night, label: noite }
+  - { key: caatinga, label: caatinga }
 
 # Build
 markdown: kramdown

@@ -8,7 +8,7 @@
   docs: https://dantebertuzzi.github.io/MicroSUS.jl/
   domain: health
   version: "0.5.1"
-  description: "DATASUS microdata with constant-memory streaming reads of .dbc/.dbf and typed schemas for SIM, SINASC, SIH, SIA, CNES and SINAN."
+  description: "Microdados do DATASUS com leitura em streaming de .dbc/.dbf com memória constante e esquemas tipados para SIM, SINASC, SIH, SIA, CNES e SINAN."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 3, 0, 4, 0, 0, 0, 17, 1, 2, 0, 0, 33, 1, 0, 0, 0, 0, 9, 0]
 
 - name: BRElections.jl
@@ -17,7 +17,7 @@
   code: https://github.com/dantebertuzzi/BRElections.jl
   domain: elections
   version: "0.4.1"
-  description: "TSE electoral data — candidates, votes by polling station, assets, electorate — with no ZIPs to unpack and no Latin-1 to deal with."
+  description: "Dados eleitorais do TSE — candidatos, votos por seção, bens declarados, eleitorado — sem ZIP para descompactar e sem Latin-1 para tratar."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 5, 0, 0, 0, 2, 2, 0, 0, 0, 0, 20, 8, 0, 2, 0, 0, 0]
 
 - name: ElectionForensics.jl
@@ -26,7 +26,7 @@
   code: https://github.com/dantebertuzzi/ElectionForensics.jl
   domain: elections
   version: "0.1.0"
-  description: "Rozenas, Benford and last-digit tests that measure their own type I error on your data before you conclude anything."
+  description: "Testes de Rozenas, de Benford e do último dígito que medem o próprio erro tipo I nos seus dados antes de você concluir qualquer coisa."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 - name: DeBRief.jl
@@ -36,7 +36,7 @@
   docs: https://dantebertuzzi.github.io/DeBRief.jl/
   domain: public safety
   version: "0.1.4"
-  description: "Crime statistics from MJSP/Sinesp under one stable schema across years of shifting layouts, with per-100k rates."
+  description: "Estatísticas criminais do MJSP/Sinesp num esquema único e estável, apesar de anos de layouts diferentes, com taxas por 100 mil habitantes."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2, 2, 0, 3, 0, 3, 0, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0]
 
 - name: BCB.jl
@@ -45,7 +45,7 @@
   code: https://github.com/dantebertuzzi/BCB.jl
   domain: economics
   version: "0.1.0"
-  description: "Central Bank of Brazil APIs: SGS series, PTAX exchange rates, Focus expectations and a generic OData query builder."
+  description: "APIs do Banco Central do Brasil: séries do SGS, câmbio PTAX, expectativas do Focus e um construtor genérico de consultas OData."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 - name: OBISClient.jl
@@ -55,7 +55,7 @@
   docs: https://dantebertuzzi.github.io/OBISClient.jl/
   domain: biodiversity
   version: "0.2.0"
-  description: "An independent client for OBIS, the Ocean Biodiversity Information System (IOC/UNESCO)."
+  description: "Um cliente independente para o OBIS, o Ocean Biodiversity Information System (COI/UNESCO)."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 1, 0, 0, 10, 0, 0, 0, 0, 0, 1]
 
 - name: MissingPatterns.jl
@@ -65,7 +65,7 @@
   docs: https://dantebertuzzi.github.io/MissingPatterns.jl/
   domain: data quality
   version: "0.8.0"
-  description: "Missing-data patterns in the terminal: heatmaps, md.pattern()-style summaries and co-occurrence, zero plotting dependencies."
+  description: "Padrões de dados faltantes no terminal: mapas de calor, resumos no estilo md.pattern() e coocorrência, sem nenhuma dependência gráfica."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 0, 0, 1, 4, 0, 0, 1, 13, 1, 0, 0, 0, 0, 7, 0, 0, 0, 5, 1]
 
 - name: Perth.jl
@@ -75,7 +75,7 @@
   docs: https://dantebertuzzi.github.io/Perth.jl/
   domain: tools
   version: "0.16.1"
-  description: "Gantt and Kanban driven from the REPL, with a local web UI and real-time sharing over the LAN."
+  description: "Gantt e Kanban comandados pelo REPL, com interface web local e compartilhamento em tempo real na rede local."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 3, 21, 76, 42, 0, 4, 10, 8, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 
 - name: Kanon.jl
@@ -85,7 +85,7 @@
   docs: https://dantebertuzzi.github.io/Kanon.jl/
   domain: tools
   version: "0.1.0"
-  description: "A document template language whose templates declare their own data contract."
+  description: "Uma linguagem de modelos de documento cujos modelos declaram o próprio contrato de dados."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 6, 21, 0, 0, 3, 1, 0, 0, 0, 0, 0]
 
 - name: Liquid.jl
@@ -94,5 +94,5 @@
   code: https://github.com/dantebertuzzi/Liquid.jl
   domain: tools
   version: "0.1.0"
-  description: "The Liquid template language in pure Julia; rendering never evaluates Julia code."
+  description: "A linguagem de templates Liquid em Julia puro; a renderização nunca executa código Julia."
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
