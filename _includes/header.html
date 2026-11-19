@@ -1,14 +1,17 @@
+{%- assign t = site.data.i18n[page.lang] -%}
 <header class="bar-top">
   <div class="mono who"><b>{{ site.author.short }}</b> &nbsp;{{ site.author.place }} &nbsp;{{ site.author.coords }}</div>
   <div class="tools">
-    <div class="langs" role="group" aria-label="Idioma" data-i18n="a_lang" data-i18n-attr="aria-label">
-      {%- for l in site.languages %}
-      <button type="button" data-lang="{{ l.code }}" lang="{{ l.code }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}" aria-label="{{ l.name }}" title="{{ l.name }}">{% include flags/{{ l.code }}.svg %}</button>
+    <nav class="langs" aria-label="{{ t.a_lang }}">
+      {%- for l in site.data.i18n %}
+      {%- capture flag %}flags/{{ l[0] }}.svg{% endcapture %}
+      <a href="{{ l[1].url | relative_url }}" hreflang="{{ l[1].html_lang }}" lang="{{ l[1].html_lang }}" title="{{ l[1].name }}" aria-label="{{ l[1].name }}"{% if l[0] == page.lang %} aria-current="page"{% endif %}>{% include {{ flag }} %}</a>
       {%- endfor %}
-    </div>
-    <div class="themes" role="group" aria-label="Tema de cores" data-i18n="a_theme" data-i18n-attr="aria-label">
-      {%- for t in site.themes %}
-      <button type="button" data-set="{{ t.key }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"><span class="sw {{ t.key }}"></span><span class="lbl-t"{% unless t.key == "caatinga" %} data-i18n="t_{{ t.key }}"{% endunless %}>{{ t.label }}</span></button>
+    </nav>
+    <div class="themes" role="group" aria-label="{{ t.a_theme }}">
+      {%- for th in site.themes %}
+      {%- capture key %}t_{{ th }}{% endcapture %}
+      <button type="button" data-set="{{ th }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}" aria-label="{{ t[key] | default: th }}"><span class="sw {{ th }}"></span><span class="lbl-t">{{ t[key] | default: th }}</span></button>
       {%- endfor %}
     </div>
     <a class="gh" href="{{ site.github }}">{% include icon-github.svg %}GitHub</a>

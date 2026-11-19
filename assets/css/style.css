@@ -1,3 +1,13 @@
+/* ---------- fonte (auto-hospedada, SIL OFL 1.1, ver assets/fonts/OFL.txt) ---------- */
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/jetbrains-mono-latin-400.woff2") format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/jetbrains-mono-latin-ext-400.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:600;font-display:swap;src:url("../fonts/jetbrains-mono-latin-600.woff2") format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:600;font-display:swap;src:url("../fonts/jetbrains-mono-latin-ext-600.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+
 /* ---------- temas ---------- */
 :root,[data-theme="paper"]{
   --bg:#f6f2e9;--panel:#efe9dc;--ink:#1f1c17;--muted:#6b6457;--rule:#d8cfbd;--faint:#e6dfd0;
@@ -41,13 +51,13 @@ a:hover{text-decoration-color:var(--accent)}
 .themes button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .themes button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .langs{display:flex;border:1px solid var(--rule);border-radius:999px;padding:3px;gap:2px}
-.langs button{all:unset;cursor:pointer;padding:5px 8px;border-radius:999px;color:var(--muted);font-family:"JetBrains Mono",monospace;font-size:11.5px;min-height:24px;line-height:24px;box-sizing:border-box;display:flex;align-items:center}
-.langs button:hover{color:var(--ink)}
-.langs button svg{width:20px;height:13px;display:block;border-radius:2px;box-shadow:0 0 0 1px var(--rule);opacity:.55;filter:saturate(.6);transition:opacity .15s,filter .15s}
-.langs button:hover svg{opacity:.9;filter:none}
-.langs button[aria-pressed="true"]{background:var(--ink)}
-.langs button[aria-pressed="true"] svg{opacity:1;filter:none;box-shadow:none}
-.langs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.langs a{text-decoration:none;cursor:pointer;padding:5px 8px;border-radius:999px;color:var(--muted);font-family:"JetBrains Mono",monospace;font-size:11.5px;min-height:24px;line-height:24px;box-sizing:border-box;display:flex;align-items:center}
+.langs a:hover{color:var(--ink)}
+.langs a svg{width:20px;height:13px;display:block;border-radius:2px;box-shadow:0 0 0 1px var(--rule);opacity:.55;filter:saturate(.6);transition:opacity .15s,filter .15s}
+.langs a:hover svg{opacity:.9;filter:none}
+.langs a[aria-current="page"]{background:var(--ink)}
+.langs a[aria-current="page"] svg{opacity:1;filter:none;box-shadow:none}
+.langs a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .sw{width:10px;height:10px;border-radius:50%;border:1px solid currentColor;flex:none}
 .sw.auto{background:linear-gradient(90deg,#f6f2e9 50%,#101315 50%)}.sw.paper{background:#f6f2e9}.sw.night{background:#101315}.sw.caatinga{background:#ecdcbc}
 .gh{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border-radius:999px;background:var(--ink);color:var(--bg);text-decoration:none;

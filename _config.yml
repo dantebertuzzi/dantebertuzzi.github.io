@@ -1,12 +1,7 @@
 # Site
 title: Dante Bertuzzi
-tagline: estatística, Julia, dados públicos
-description: >-
-  Dante Bertuzzi, estatístico em Petrolina (PE). Pacotes Julia de código aberto
-  para dados públicos brasileiros e pesquisa reprodutível sobre o clima do semiárido.
 url: https://dantebertuzzi.github.io
 baseurl: ""
-lang: pt-BR
 author:
   name: Dante Bertuzzi
   short: D. Bertuzzi
@@ -15,20 +10,18 @@ author:
 github: https://github.com/dantebertuzzi
 repository: https://github.com/dantebertuzzi/dantebertuzzi.github.io
 
-# Idiomas do seletor (o português é o idioma do conteúdo)
-languages:
-  - { code: pt, name: Português }
-  - { code: en, name: English }
-  - { code: it, name: Italiano }
-  - { code: hu, name: Magyar }
-  - { code: ro, name: Română }
+# Idiomas: os textos de interface ficam em _data/i18n.yml (a ordem lá define a
+# ordem das bandeiras); o conteúdo de cada idioma é uma página (index.md, en/index.md...).
+default_lang: pt
 
-# Temas de cor (key = nome interno, label = texto no botão)
-themes:
-  - { key: auto, label: auto }
-  - { key: paper, label: papel }
-  - { key: night, label: noite }
-  - { key: caatinga, label: caatinga }
+# Temas de cor (os rótulos vêm de _data/i18n.yml: t_auto, t_paper, t_night)
+themes: [auto, paper, night, caatinga]
+
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: default
+      lang: pt
 
 # Build
 markdown: kramdown
@@ -36,12 +29,10 @@ kramdown:
   input: GFM
   hard_wrap: false
   smart_quotes: ["apos", "apos", "quot", "quot"]
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
+  - scripts
   - .editorconfig

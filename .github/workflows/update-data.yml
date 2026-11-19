@@ -1,0 +1,42 @@
+name: Update package data
+
+# Toda segunda-feira atualiza commits semanais e versões em _data/packages.yml.
+# Se algo mudou, faz commit e dispara o deploy (pushes feitos com GITHUB_TOKEN
+# não disparam outros workflows sozinhos, por isso o "gh workflow run").
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+      - run: ruby scripts/update_packages.rb
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and deploy if changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- _data/packages.yml; then
+            echo "Nada mudou."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update package data"
+          git push
+          gh workflow run pages.yml --ref main

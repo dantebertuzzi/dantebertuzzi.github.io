@@ -1,0 +1,58 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ '/' | absolute_url }}#website",
+      "url": "{{ '/' | absolute_url }}",
+      "name": {{ site.title | jsonify }},
+      "inLanguage": [{% for l in site.data.i18n %}{{ l[1].html_lang | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+      "publisher": { "@id": "{{ '/' | absolute_url }}#person" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ t.url | absolute_url }}#page",
+      "url": "{{ t.url | absolute_url }}",
+      "name": {{ t.title | jsonify }},
+      "description": {{ t.description | jsonify }},
+      "inLanguage": {{ t.html_lang | jsonify }},
+      "isPartOf": { "@id": "{{ '/' | absolute_url }}#website" },
+      "mainEntity": { "@id": "{{ '/' | absolute_url }}#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ '/' | absolute_url }}#person",
+      "name": {{ site.author.name | jsonify }},
+      "url": "{{ '/' | absolute_url }}",
+      "image": "{{ '/assets/img/og.png' | absolute_url }}",
+      "jobTitle": "Statistician",
+      "address": { "@type": "PostalAddress", "addressLocality": "Petrolina", "addressRegion": "PE", "addressCountry": "BR" },
+      "knowsAbout": ["Statistics", "Julia (programming language)", "Open data", "Reproducible research", "Climatology", "Brazilian semi-arid"],
+      "sameAs": [{{ site.github | jsonify }}]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.23438824",
+      "headline": "Menos chuva e mais calor em Petrolina-PE (1961–2025): tendências do regime meteorológico e o que elas implicam para a frequência de anos muito secos",
+      "author": { "@id": "{{ '/' | absolute_url }}#person" },
+      "datePublished": "2026",
+      "inLanguage": "pt-BR",
+      "publisher": { "@type": "Organization", "name": "Zenodo" },
+      "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.23438824" },
+      "url": "https://doi.org/10.5281/zenodo.23438824",
+      "isBasedOn": "https://github.com/dantebertuzzi/meteo"
+    }{% for p in site.data.packages %},
+    {
+      "@type": "SoftwareSourceCode",
+      "name": {{ p.name | jsonify }},
+      "description": {{ t.packages[p.slug] | jsonify }},
+      "codeRepository": {{ p.code | jsonify }},
+      "programmingLanguage": "Julia",
+      "version": {{ p.version | jsonify }},
+      "author": { "@id": "{{ '/' | absolute_url }}#person" }
+    }{% endfor %}
+  ]
+}
+</script>

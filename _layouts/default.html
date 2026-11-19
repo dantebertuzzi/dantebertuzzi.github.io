@@ -1,5 +1,6 @@
+{%- assign t = site.data.i18n[page.lang] -%}
 <!doctype html>
-<html lang="{{ site.lang }}" data-theme="auto">
+<html lang="{{ t.html_lang }}" data-theme="auto">
 <head>
   {%- include head.html %}
 </head>
@@ -7,8 +8,7 @@
 <div class="page">
 {% include header.html %}
 
-<img class="desert" src="{{ '/assets/img/sertao.svg' | relative_url }}" width="937" height="161" fetchpriority="high"
-  alt="Pôr do sol no sertão: chapadas, o rio São Francisco e mandacarus" data-i18n="a_desert" data-i18n-attr="alt">
+<img class="desert" src="{{ '/assets/img/sertao.svg' | relative_url }}" width="937" height="161" fetchpriority="high" alt="{{ t.a_desert }}">
 
 <main>
 {{ content }}

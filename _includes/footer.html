@@ -1,4 +1,5 @@
+{%- assign t = site.data.i18n[page.lang] -%}
 <footer>
   <span class="motto">Statistics ad æternum.</span>
-  <span class="mono" data-i18n="foot">Composto em JetBrains Mono · sem rastreadores · <a href="{{ site.repository }}">código-fonte</a></span>
+  <span class="mono">{{ t.foot }}</span>
 </footer>
