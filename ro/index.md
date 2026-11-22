@@ -14,7 +14,7 @@ Statistician. Scriu pachete Julia care fac reproductibile datele publice din Bra
 <div class="abstract" markdown="1">
 <div class="mono">Rezumat</div>
 
-Datele publice din Brazilia sunt bogate și greu de accesat: fișiere DBC comprimate, codificări Latin-1, structuri care se schimbă de la o versiune la alta. Munca mea rezolvă această dezordine o singură dată, în pachete Julia open-source, astfel încât analiza să poată începe de la întrebare, nu de la formatul fișierului. Până acum, zece pachete acoperă registre de sănătate, alegeri, statistici despre criminalitate, banca centrală, biodiversitatea oceanică, calitatea datelor, șabloane de documente și managementul proiectelor. Fac și cercetare reproductibilă: cel mai recent preprint al meu estimează că un an la fel de secetos ca 2012/13, care odinioară era de așteptat cam o dată la 38 de ani în Petrolina, vine acum cam o dată la 12.
+Datele publice din Brazilia sunt bogate și greu de accesat: fișiere DBC comprimate, codificări Latin-1, structuri care se schimbă de la o versiune la alta. Munca mea rezolvă această dezordine o singură dată, în pachete Julia open-source, astfel încât analiza să poată începe de la întrebare, nu de la formatul fișierului. Până acum, zece pachete acoperă registre de sănătate, alegeri, statistici despre criminalitate, banca centrală, biodiversitatea oceanică, calitatea datelor, șabloane de documente și managementul proiectelor. Fac și cercetare reproductibilă: cel mai recent preprint al meu estimează că un an la fel de secetos ca 2012/13, care odinioară era de așteptat cam o dată la 38 de ani în Petrolina, sub tendința liniară vine acum, la sfârșitul seriei, cam o dată la 12–18 ani.
 
 Cuvinte-cheie: statistică · Julia · date publice · reproductibilitate · semiarid
 {: .kw .mono}
@@ -30,15 +30,15 @@ Cuvinte-cheie: statistică · Julia · date publice · reproductibilitate · sem
 </section>
 
 <section id="research" markdown="1">
-{% include section-head.html num="2" title="Cercetare" lede="Fiecare număr din text este generat de cod, cu teste unitare și o verificare independentă în Python." %}
+{% include section-head.html num="2" title="Cercetare" lede="Fiecare număr din text este generat de cod, cu teste unitare, o verificare parțială în Python și demonstrații în Lean ale formulelor închise." %}
 
-Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina-PE (1961–2025): tendências do regime meteorológico e o que elas implicam para a frequência de anos muito secos.</span> Preprint, Zenodo. [doi:10.5281/zenodo.23438824](https://doi.org/10.5281/zenodo.23438824){: .mono} · [cod și date](https://github.com/dantebertuzzi/meteo){: .mono}
+Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina-PE (1961–2025): tendências do regime meteorológico e o que elas implicam para a frequência de anos muito secos.</span> Preprint, Zenodo, v1.3.1. [doi:10.5281/zenodo.24447699](https://doi.org/10.5281/zenodo.24447699){: .mono} · [cod și date](https://github.com/dantebertuzzi/meteo){: .mono}
 {: .cite}
 
 <div class="stats">
   <div class="stat"><div class="v">−60 <small>mm / deceniu</small></div><p>Tendința precipitațiilor anuale până în 2020/21, interval de încredere 95% între −87 și −33.</p></div>
-  <div class="stat"><div class="v">+0.39 <small>°C / deceniu</small></div><p>Temperatura minimă. Maxima a crescut cu +0,28 °C pe deceniu.</p></div>
-  <div class="stat"><div class="v">38 → 12 <small>ani</small></div><p>Perioada de revenire a unui an la fel de secetos ca 2012/13: climă staționară față de media recentă.</p></div>
+  <div class="stat"><div class="v">+0.40 <small>°C / deceniu</small></div><p>Temperatura minimă; între 0,19 și 0,31 după corectarea discontinuităților față de stațiile vecine. Maxima a crescut cu +0,27 °C pe deceniu.</p></div>
+  <div class="stat"><div class="v">38 → 12–18 <small>ani</small></div><p>Perioada de revenire a unui an la fel de secetos ca 2012/13: climă staționară față de sfârșitul seriei sub tendința liniară (circa 27 dacă scăderea a fost o treaptă).</p></div>
   <div class="stat"><div class="v">6 <small>stații</small></div><p>Analiză regională de frecvență, verificată cu pluviometrele ANA și normalele INMET.</p></div>
 </div>
 </section>

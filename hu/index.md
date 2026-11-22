@@ -14,7 +14,7 @@ Statisztikus vagyok. Julia-csomagokat írok, amelyek reprodukálhatóvá teszik 
 <div class="abstract" markdown="1">
 <div class="mono">Összefoglaló</div>
 
-Brazília közadatai gazdagok, de nehezen hozzáférhetők: tömörített DBC-fájlok, Latin-1 kódolás, kiadásról kiadásra változó szerkezet. A munkám ezt a káoszt egyszer, nyílt forráskódú Julia-csomagokban kezeli, így az elemzés a kérdésnél kezdődhet, nem a fájlformátumnál. Eddig tíz csomag fedi le az egészségügyi nyilvántartásokat, a választásokat, a bűnügyi statisztikákat, a központi bankot, az óceáni biodiverzitást, az adatminőséget, a dokumentumsablonokat és a projektmenedzsmentet. Reprodukálható kutatást is végzek: legutóbbi preprintem szerint egy olyan száraz év, mint a 2012/13-as, amely Petrolinában korábban nagyjából 38 évente fordult elő, ma körülbelül 12 évente jön el.
+Brazília közadatai gazdagok, de nehezen hozzáférhetők: tömörített DBC-fájlok, Latin-1 kódolás, kiadásról kiadásra változó szerkezet. A munkám ezt a káoszt egyszer, nyílt forráskódú Julia-csomagokban kezeli, így az elemzés a kérdésnél kezdődhet, nem a fájlformátumnál. Eddig tíz csomag fedi le az egészségügyi nyilvántartásokat, a választásokat, a bűnügyi statisztikákat, a központi bankot, az óceáni biodiverzitást, az adatminőséget, a dokumentumsablonokat és a projektmenedzsmentet. Reprodukálható kutatást is végzek: legutóbbi preprintem szerint egy olyan száraz év, mint a 2012/13-as, amely Petrolinában korábban nagyjából 38 évente fordult elő, a lineáris trend szerint a sor végén körülbelül 12–18 évente jön el.
 
 Kulcsszavak: statisztika · Julia · közadatok · reprodukálhatóság · félszáraz éghajlat
 {: .kw .mono}
@@ -30,15 +30,15 @@ Kulcsszavak: statisztika · Julia · közadatok · reprodukálhatóság · féls
 </section>
 
 <section id="research" markdown="1">
-{% include section-head.html num="2" title="Kutatás" lede="A szövegben minden szám kódból születik, egységtesztekkel és független Python-ellenőrzéssel." %}
+{% include section-head.html num="2" title="Kutatás" lede="A szövegben minden szám kódból születik, egységtesztekkel, részleges Python-ellenőrzéssel és a zárt képletek Lean-bizonyításaival." %}
 
-Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina-PE (1961–2025): tendências do regime meteorológico e o que elas implicam para a frequência de anos muito secos.</span> Preprint, Zenodo. [doi:10.5281/zenodo.23438824](https://doi.org/10.5281/zenodo.23438824){: .mono} · [kód és adatok](https://github.com/dantebertuzzi/meteo){: .mono}
+Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina-PE (1961–2025): tendências do regime meteorológico e o que elas implicam para a frequência de anos muito secos.</span> Preprint, Zenodo, v1.3.1. [doi:10.5281/zenodo.24447699](https://doi.org/10.5281/zenodo.24447699){: .mono} · [kód és adatok](https://github.com/dantebertuzzi/meteo){: .mono}
 {: .cite}
 
 <div class="stats">
   <div class="stat"><div class="v">−60 <small>mm / évtized</small></div><p>Az éves csapadék trendje 2020/21-ig, 95%-os intervallum: −87 és −33 között.</p></div>
-  <div class="stat"><div class="v">+0.39 <small>°C / évtized</small></div><p>Minimumhőmérséklet. A maximum évtizedenként +0,28 °C-kal nőtt.</p></div>
-  <div class="stat"><div class="v">38 → 12 <small>év</small></div><p>A 2012/13-ashoz hasonlóan száraz év visszatérési ideje: stacionárius éghajlat vs. a közelmúlt átlaga.</p></div>
+  <div class="stat"><div class="v">+0.40 <small>°C / évtized</small></div><p>Minimumhőmérséklet; a szomszédos állomásokhoz mért törések korrekciójával 0,19–0,31. A maximum évtizedenként +0,27 °C-kal nőtt.</p></div>
+  <div class="stat"><div class="v">38 → 12–18 <small>év</small></div><p>A 2012/13-ashoz hasonlóan száraz év visszatérési ideje: stacionárius éghajlat vs. a sor vége a lineáris trend szerint (kb. 27, ha a csökkenés lépcsőszerű volt).</p></div>
   <div class="stat"><div class="v">6 <small>állomás</small></div><p>Regionális gyakoriságelemzés, az ANA csapadékmérőivel és az INMET normál értékeivel ellenőrizve.</p></div>
 </div>
 </section>
