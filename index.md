@@ -32,7 +32,7 @@ Palavras-chave: estatística · Julia · dados públicos · reprodutibilidade ·
 <section id="research" markdown="1">
 {% include section-head.html num="2" title="Pesquisa" lede="Todo número no texto é gerado pelo código, com testes unitários, uma verificação parcial em Python e provas em Lean das fórmulas fechadas." %}
 
-Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina-PE (1961–2025): tendências do regime meteorológico e o que elas implicam para a frequência de anos muito secos.</span> Preprint, Zenodo, v1.3.1. [doi:10.5281/zenodo.24447699](https://doi.org/10.5281/zenodo.24447699){: .mono} · [código e dados](https://github.com/dantebertuzzi/meteo){: .mono}
+Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina-PE (1961–2025): tendências do regime meteorológico e o que elas implicam para a frequência de anos muito secos.</span> Preprint, Zenodo, v1.3.2. [doi:10.5281/zenodo.24608594](https://doi.org/10.5281/zenodo.24608594){: .mono} · [código e dados](https://github.com/dantebertuzzi/meteo){: .mono}
 {: .cite}
 
 <div class="stats">
