@@ -14,7 +14,7 @@ Statistico. Scrivo pacchetti Julia che rendono riproducibili i dati pubblici bra
 <div class="abstract" markdown="1">
 <div class="mono">Sommario</div>
 
-I dati pubblici in Brasile sono ricchi e difficili da raggiungere: file DBC compressi, codifiche Latin-1, tracciati che cambiano da una versione all’altra. Il mio lavoro assorbe questo caos una volta sola, in pacchetti Julia open source, così l’analisi può partire dalla domanda invece che dal formato del file. Finora dieci pacchetti coprono registri sanitari, elezioni, statistiche sulla criminalità, la banca centrale, la biodiversità oceanica, la qualità dei dati, i modelli di documento e la gestione di progetti. Scrivo anche ricerca riproducibile: il mio ultimo preprint stima che un anno secco come il 2012/13, un tempo atteso circa ogni 38 anni a Petrolina, con la tendenza lineare alla fine della serie arrivi circa ogni 12–18.
+I dati pubblici in Brasile sono ricchi e difficili da raggiungere: file DBC compressi, codifiche Latin-1, tracciati che cambiano da una versione all’altra. Il mio lavoro assorbe questo caos una volta sola, in pacchetti Julia open source, così l’analisi può partire dalla domanda invece che dal formato del file. Finora nove pacchetti coprono registri sanitari, elezioni, statistiche sulla criminalità, la biodiversità oceanica, la qualità dei dati, i modelli di documento e la gestione di progetti. Scrivo anche ricerca riproducibile: il mio ultimo preprint stima che un anno secco come il 2012/13, un tempo atteso circa ogni 38 anni a Petrolina, con la tendenza lineare alla fine della serie arrivi circa ogni 12–18.
 
 Parole chiave: statistica · Julia · dati pubblici · riproducibilità · semiarido
 {: .kw .mono}

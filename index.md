@@ -14,7 +14,7 @@ Estatístico. Escrevo pacotes Julia que tornam reprodutíveis os dados públicos
 <div class="abstract" markdown="1">
 <div class="mono">Resumo</div>
 
-Os dados públicos no Brasil são ricos e difíceis de alcançar: arquivos DBC comprimidos, codificação Latin-1, layouts que mudam a cada nova versão. Meu trabalho absorve essa bagunça uma vez só, em pacotes Julia de código aberto, para que a análise comece pela pergunta e não pelo formato do arquivo. Até agora, dez pacotes cobrem registros de saúde, eleições, estatísticas criminais, o Banco Central, biodiversidade marinha, qualidade de dados, modelos de documentos e gestão de projetos. Também faço pesquisa reprodutível: meu preprint mais recente estima que um ano tão seco quanto 2012/13, antes esperado a cada 38 anos em Petrolina, pela tendência linear, no fim da série volta a cada 12 a 18 anos, aproximadamente.
+Os dados públicos no Brasil são ricos e difíceis de alcançar: arquivos DBC comprimidos, codificação Latin-1, layouts que mudam a cada nova versão. Meu trabalho absorve essa bagunça uma vez só, em pacotes Julia de código aberto, para que a análise comece pela pergunta e não pelo formato do arquivo. Até agora, nove pacotes cobrem registros de saúde, eleições, estatísticas criminais, biodiversidade marinha, qualidade de dados, modelos de documentos e gestão de projetos. Também faço pesquisa reprodutível: meu preprint mais recente estima que um ano tão seco quanto 2012/13, antes esperado a cada 38 anos em Petrolina, pela tendência linear, no fim da série volta a cada 12 a 18 anos, aproximadamente.
 
 Palavras-chave: estatística · Julia · dados públicos · reprodutibilidade · semiárido
 {: .kw .mono}

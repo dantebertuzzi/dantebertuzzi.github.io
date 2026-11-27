@@ -14,7 +14,7 @@ Statisztikus vagyok. Julia-csomagokat írok, amelyek reprodukálhatóvá teszik 
 <div class="abstract" markdown="1">
 <div class="mono">Összefoglaló</div>
 
-Brazília közadatai gazdagok, de nehezen hozzáférhetők: tömörített DBC-fájlok, Latin-1 kódolás, kiadásról kiadásra változó szerkezet. A munkám ezt a káoszt egyszer, nyílt forráskódú Julia-csomagokban kezeli, így az elemzés a kérdésnél kezdődhet, nem a fájlformátumnál. Eddig tíz csomag fedi le az egészségügyi nyilvántartásokat, a választásokat, a bűnügyi statisztikákat, a központi bankot, az óceáni biodiverzitást, az adatminőséget, a dokumentumsablonokat és a projektmenedzsmentet. Reprodukálható kutatást is végzek: legutóbbi preprintem szerint egy olyan száraz év, mint a 2012/13-as, amely Petrolinában korábban nagyjából 38 évente fordult elő, a lineáris trend szerint a sor végén körülbelül 12–18 évente jön el.
+Brazília közadatai gazdagok, de nehezen hozzáférhetők: tömörített DBC-fájlok, Latin-1 kódolás, kiadásról kiadásra változó szerkezet. A munkám ezt a káoszt egyszer, nyílt forráskódú Julia-csomagokban kezeli, így az elemzés a kérdésnél kezdődhet, nem a fájlformátumnál. Eddig kilenc csomag fedi le az egészségügyi nyilvántartásokat, a választásokat, a bűnügyi statisztikákat, az óceáni biodiverzitást, az adatminőséget, a dokumentumsablonokat és a projektmenedzsmentet. Reprodukálható kutatást is végzek: legutóbbi preprintem szerint egy olyan száraz év, mint a 2012/13-as, amely Petrolinában korábban nagyjából 38 évente fordult elő, a lineáris trend szerint a sor végén körülbelül 12–18 évente jön el.
 
 Kulcsszavak: statisztika · Julia · közadatok · reprodukálhatóság · félszáraz éghajlat
 {: .kw .mono}

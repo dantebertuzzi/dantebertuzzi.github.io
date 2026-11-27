@@ -35,14 +35,6 @@
   version: "0.1.4"
   activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2, 2, 0, 3, 0, 3, 0, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0]
 
-- name: BCB.jl
-  slug: bcb
-  url: https://github.com/dantebertuzzi/BCB.jl
-  code: https://github.com/dantebertuzzi/BCB.jl
-  domain: economics
-  version: "0.1.0"
-  activity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-
 - name: OBISClient.jl
   slug: obisclient
   url: https://dantebertuzzi.github.io/OBISClient.jl/

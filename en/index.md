@@ -14,7 +14,7 @@ Statistician. I write Julia packages that make Brazilian public data reproducibl
 <div class="abstract" markdown="1">
 <div class="mono">Abstract</div>
 
-Public data in Brazil is rich and hard to reach: compressed DBC files, Latin-1 encodings, layouts that change between releases. My work absorbs that mess once, in open-source Julia packages, so the analysis can start at the question instead of at the file format. Ten packages so far cover health records, elections, crime statistics, the central bank, ocean biodiversity, data quality, document templating and project management. I also write reproducible research: my latest preprint estimates that a year as dry as 2012/13, once expected about every 38 years in Petrolina, under the linear trend now comes about every 12 to 18 at the end of the record.
+Public data in Brazil is rich and hard to reach: compressed DBC files, Latin-1 encodings, layouts that change between releases. My work absorbs that mess once, in open-source Julia packages, so the analysis can start at the question instead of at the file format. Nine packages so far cover health records, elections, crime statistics, ocean biodiversity, data quality, document templating and project management. I also write reproducible research: my latest preprint estimates that a year as dry as 2012/13, once expected about every 38 years in Petrolina, under the linear trend now comes about every 12 to 18 at the end of the record.
 
 Keywords: statistics · Julia · public data · reproducibility · semi-arid
 {: .kw .mono}

@@ -43,7 +43,6 @@ pt:
     brelections: Dados eleitorais do TSE — candidatos, votos por seção, bens declarados, eleitorado — sem ZIP para descompactar e sem Latin-1 para tratar.
     electionforensics: Testes de Rozenas, de Benford e do último dígito que medem o próprio erro tipo I nos seus dados antes de você concluir qualquer coisa.
     debrief: Estatísticas criminais do MJSP/Sinesp num esquema único e estável, apesar de anos de layouts diferentes, com taxas por 100 mil habitantes.
-    bcb: 'APIs do Banco Central do Brasil: séries do SGS, câmbio PTAX, expectativas do Focus e um construtor genérico de consultas OData.'
     obisclient: Um cliente independente para o OBIS, o Ocean Biodiversity Information System (COI/UNESCO).
     missingpatterns: 'Padrões de dados faltantes no terminal: mapas de calor, resumos no estilo md.pattern() e coocorrência, sem nenhuma dependência gráfica.'
     perth: Gantt e Kanban comandados pelo REPL, com interface web local e compartilhamento em tempo real na rede local.
@@ -92,7 +91,6 @@ en:
     brelections: TSE electoral data — candidates, votes by polling station, assets, electorate — with no ZIPs to unpack and no Latin-1 to deal with.
     electionforensics: Rozenas, Benford and last-digit tests that measure their own type I error on your data before you conclude anything.
     debrief: Crime statistics from MJSP/Sinesp under one stable schema across years of shifting layouts, with per-100k rates.
-    bcb: 'Central Bank of Brazil APIs: SGS series, PTAX exchange rates, Focus expectations and a generic OData query builder.'
     obisclient: An independent client for OBIS, the Ocean Biodiversity Information System (IOC/UNESCO).
     missingpatterns: 'Missing-data patterns in the terminal: heatmaps, md.pattern()-style summaries and co-occurrence, zero plotting dependencies.'
     perth: Gantt and Kanban driven from the REPL, with a local web UI and real-time sharing over the LAN.
@@ -141,7 +139,6 @@ it:
     brelections: Dati elettorali del TSE — candidati, voti per seggio, patrimoni, elettorato — senza ZIP da estrarre né Latin-1 da gestire.
     electionforensics: Test di Rozenas, di Benford e dell’ultima cifra che misurano il proprio errore di primo tipo sui tuoi dati prima che tu concluda qualcosa.
     debrief: Statistiche sulla criminalità del MJSP/Sinesp in un unico schema stabile, nonostante anni di tracciati mutevoli, con tassi per 100 mila abitanti.
-    bcb: 'API della Banca Centrale del Brasile: serie SGS, tassi di cambio PTAX, aspettative Focus e un generatore generico di query OData.'
     obisclient: Un client indipendente per OBIS, l’Ocean Biodiversity Information System (IOC/UNESCO).
     missingpatterns: 'Pattern di dati mancanti nel terminale: heatmap, riepiloghi in stile md.pattern() e co-occorrenze, nessuna dipendenza grafica.'
     perth: Gantt e Kanban gestiti dal REPL, con un’interfaccia web locale e condivisione in tempo reale sulla rete locale.
@@ -190,7 +187,6 @@ hu:
     brelections: A TSE választási adatai — jelöltek, szavazókörönkénti szavazatok, vagyonnyilatkozatok, választópolgárok — kicsomagolandó ZIP-ek és Latin-1 nélkül.
     electionforensics: Rozenas-, Benford- és utolsószámjegy-tesztek, amelyek a te adataidon mérik meg saját elsőfajú hibájukat, mielőtt bármire következtetnél.
     debrief: Az MJSP/Sinesp bűnügyi statisztikái egyetlen stabil sémában, az évről évre változó szerkezet ellenére, 100 ezer lakosra vetített arányokkal.
-    bcb: 'A Brazil Központi Bank API-jai: SGS-idősorok, PTAX-árfolyamok, Focus-várakozások és egy általános OData-lekérdezésépítő.'
     obisclient: Független kliens az OBIS-hoz, az Ocean Biodiversity Information Systemhez (IOC/UNESCO).
     missingpatterns: 'Hiányzóadat-mintázatok a terminálban: hőtérképek, md.pattern()-stílusú összegzések és együttes előfordulások, ábrázolási függőségek nélkül.'
     perth: Gantt és Kanban a REPL-ből vezérelve, helyi webes felülettel és valós idejű megosztással a helyi hálózaton.
@@ -239,7 +235,6 @@ ro:
     brelections: Date electorale TSE — candidați, voturi pe secție de votare, averi, electorat — fără arhive ZIP de dezarhivat și fără Latin-1 de gestionat.
     electionforensics: Teste Rozenas, Benford și ale ultimei cifre, care își măsoară propria eroare de tip I pe datele tale înainte să tragi vreo concluzie.
     debrief: Statistici despre criminalitate de la MJSP/Sinesp într-o singură schemă stabilă, în ciuda anilor de structuri schimbătoare, cu rate la 100.000 de locuitori.
-    bcb: 'API-urile Băncii Centrale a Braziliei: serii SGS, cursuri de schimb PTAX, așteptări Focus și un constructor generic de interogări OData.'
     obisclient: Un client independent pentru OBIS, Ocean Biodiversity Information System (IOC/UNESCO).
     missingpatterns: 'Tipare de date lipsă în terminal: hărți termice, rezumate în stilul md.pattern() și co-apariții, fără nicio dependență grafică.'
     perth: Gantt și Kanban controlate din REPL, cu o interfață web locală și partajare în timp real în rețeaua locală.
