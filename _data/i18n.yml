@@ -14,12 +14,12 @@ pt:
   t_night: noite
   a_desert: 'Pôr do sol no sertão: chapadas, o rio São Francisco e mandacarus'
   fig_title: Chuva por ano hidrológico, Petrolina, de 1963/64 a 2020/21
-  fig_desc: Barras para 47 anos com dados válidos. A chuva cai cerca de 60 mm por década. Os anos mais secos são 2011/12, 2012/13 e 2016/17, todos perto de 150 mm.
-  fig_norm: normal 1963–2009 · 549 mm
+  fig_desc: Barras para 47 anos com dados válidos. A chuva cai cerca de 60 mm por década. Os anos mais secos são 2011/12, 2012/13 e 2016/17, entre 135 e 151 mm.
+  fig_norm: média 1963/64–2008/09 · 536 mm
   fig_trend: tendência -60 mm / década
   nodata: dias válidos insuficientes
   fig_l: "<b>Figura 1</b>"
-  fig_c: 'Chuva por ano hidrológico na estação 82983 do INMET, Petrolina, 1963/64–2020/21 (47 anos com dados válidos; círculos vazados marcam os anos sem dados). Tracejado: a normal oficial 1963–2009. Contínuo: uma tendência de Sen–Theil ajustada aqui à mesma série, −60 mm por década; o artigo relata −60 [−87; −33]. <span class="pull">Um ano seco é ruído. Seis décadas deles são tendência.</span>'
+  fig_c: 'Chuva por ano hidrológico na estação 82983 do INMET, Petrolina, 1963/64–2020/21 (47 anos com dados válidos; círculos vazados marcam os anos com dados insuficientes). Tracejado: a média dos 35 anos válidos de 1963/64 a 2008/09. Contínuo: uma tendência de Sen–Theil ajustada aqui à mesma série, −60 mm por década; o artigo relata −60 [−87; −33]. <span class="pull">Um ano seco é ruído. Seis décadas deles são tendência.</span>'
   tbl_l: "<b>Tabela 1</b>"
   tbl_c: Atividade é o número de commits por semana nas últimas 52 semanas, segundo o GitHub. Selecione o cabeçalho de uma coluna para ordenar.
   th_pkg: Pacote
@@ -62,12 +62,12 @@ en:
   t_night: night
   a_desert: 'Sunset over the sertão: flat-topped hills, the São Francisco river and mandacaru cacti'
   fig_title: Rainfall per hydrological year, Petrolina, 1963/64 to 2020/21
-  fig_desc: Bars for 47 years with valid data. Rainfall falls by about 60 mm per decade. The driest years are 2011/12, 2012/13 and 2016/17, all near 150 mm.
-  fig_norm: normal 1963–2009 · 549 mm
+  fig_desc: Bars for 47 years with valid data. Rainfall falls by about 60 mm per decade. The driest years are 2011/12, 2012/13 and 2016/17, between 135 and 151 mm.
+  fig_norm: mean 1963/64–2008/09 · 536 mm
   fig_trend: trend -60 mm / decade
   nodata: not enough valid days
   fig_l: "<b>Figure 1</b>"
-  fig_c: 'Rainfall per hydrological year at INMET station 82983, Petrolina, 1963/64–2020/21 (47 years with valid data; hollow dots mark years without). Dashed: the 1963–2009 official normal. Solid: a Sen–Theil trend fitted here to the same series, −60 mm per decade; the paper reports −60 [−87; −33]. <span class="pull">One dry year is noise. Six decades of them are a trend.</span>'
+  fig_c: 'Rainfall per hydrological year at INMET station 82983, Petrolina, 1963/64–2020/21 (47 years with valid data; hollow dots mark years with insufficient data). Dashed: the mean of the 35 valid years from 1963/64 to 2008/09. Solid: a Sen–Theil trend fitted here to the same series, −60 mm per decade; the paper reports −60 [−87; −33]. <span class="pull">One dry year is noise. Six decades of them are a trend.</span>'
   tbl_l: "<b>Table 1</b>"
   tbl_c: Activity is commits per week over the last 52 weeks, from GitHub. Select a column header to sort.
   th_pkg: Package
@@ -110,12 +110,12 @@ it:
   t_night: notte
   a_desert: 'Tramonto sul sertão: altipiani dalla cima piatta, il fiume São Francisco e cactus mandacaru'
   fig_title: Precipitazioni per anno idrologico, Petrolina, dal 1963/64 al 2020/21
-  fig_desc: Barre per 47 anni con dati validi. Le precipitazioni diminuiscono di circa 60 mm per decennio. Gli anni più secchi sono il 2011/12, il 2012/13 e il 2016/17, tutti vicini a 150 mm.
-  fig_norm: normale 1963–2009 · 549 mm
+  fig_desc: Barre per 47 anni con dati validi. Le precipitazioni diminuiscono di circa 60 mm per decennio. Gli anni più secchi sono il 2011/12, il 2012/13 e il 2016/17, tra 135 e 151 mm.
+  fig_norm: media 1963/64–2008/09 · 536 mm
   fig_trend: tendenza -60 mm / decennio
   nodata: giorni validi insufficienti
   fig_l: "<b>Figura 1</b>"
-  fig_c: 'Precipitazioni per anno idrologico alla stazione INMET 82983, Petrolina, 1963/64–2020/21 (47 anni con dati validi; i cerchi vuoti indicano gli anni senza). Tratteggio: la normale ufficiale 1963–2009. Linea continua: una tendenza di Sen–Theil stimata qui sulla stessa serie, −60 mm per decennio; l’articolo riporta −60 [−87; −33]. <span class="pull">Un anno secco è rumore. Sei decenni di anni secchi sono una tendenza.</span>'
+  fig_c: 'Precipitazioni per anno idrologico alla stazione INMET 82983, Petrolina, 1963/64–2020/21 (47 anni con dati validi; i cerchi vuoti indicano gli anni con dati insufficienti). Tratteggio: la media dei 35 anni validi dal 1963/64 al 2008/09. Linea continua: una tendenza di Sen–Theil stimata qui sulla stessa serie, −60 mm per decennio; l’articolo riporta −60 [−87; −33]. <span class="pull">Un anno secco è rumore. Sei decenni di anni secchi sono una tendenza.</span>'
   tbl_l: "<b>Tabella 1</b>"
   tbl_c: L’attività è il numero di commit a settimana nelle ultime 52 settimane, da GitHub. Seleziona l’intestazione di una colonna per ordinare.
   th_pkg: Pacchetto
@@ -158,12 +158,12 @@ hu:
   t_night: éjszaka
   a_desert: 'Naplemente a sertão felett: lapos tetejű fennsíkok, a São Francisco folyó és mandacaru kaktuszok'
   fig_title: Csapadék hidrológiai évenként, Petrolina, 1963/64–2020/21
-  fig_desc: Oszlopok 47, érvényes adattal rendelkező évre. A csapadék évtizedenként körülbelül 60 mm-rel csökken. A legszárazabb évek a 2011/12-es, a 2012/13-as és a 2016/17-es, mindegyik 150 mm körül.
-  fig_norm: normál 1963–2009 · 549 mm
+  fig_desc: Oszlopok 47, érvényes adattal rendelkező évre. A csapadék évtizedenként körülbelül 60 mm-rel csökken. A legszárazabb évek a 2011/12-es, a 2012/13-as és a 2016/17-es, 135 és 151 mm között.
+  fig_norm: átlag 1963/64–2008/09 · 536 mm
   fig_trend: trend -60 mm / évtized
   nodata: kevés az érvényes nap
   fig_l: "<b>1. ábra</b>"
-  fig_c: 'Csapadék hidrológiai évenként az INMET 82983-as állomásán, Petrolina, 1963/64–2020/21 (47 év érvényes adattal; az üres karikák az adat nélküli éveket jelölik). Szaggatott vonal: az 1963–2009-es hivatalos normál érték. Folytonos vonal: ugyanerre a sorra itt illesztett Sen–Theil-trend, évtizedenként −60 mm; a tanulmány −60 [−87; −33] értéket közöl. <span class="pull">Egy száraz év csak zaj. Hat évtizednyi száraz év már trend.</span>'
+  fig_c: 'Csapadék hidrológiai évenként az INMET 82983-as állomásán, Petrolina, 1963/64–2020/21 (47 év érvényes adattal; az üres karikák az elégtelen adatú éveket jelölik). Szaggatott vonal: az 1963/64 és 2008/09 közötti 35 érvényes év átlaga. Folytonos vonal: ugyanerre a sorra itt illesztett Sen–Theil-trend, évtizedenként −60 mm; a tanulmány −60 [−87; −33] értéket közöl. <span class="pull">Egy száraz év csak zaj. Hat évtizednyi száraz év már trend.</span>'
   tbl_l: "<b>1. táblázat</b>"
   tbl_c: Az aktivitás a heti commitok száma az elmúlt 52 hétben, a GitHub adatai alapján. A rendezéshez válassz egy oszlopfejlécet.
   th_pkg: Csomag
@@ -206,12 +206,12 @@ ro:
   t_night: noapte
   a_desert: 'Apus de soare peste sertão: platouri cu vârful plat, râul São Francisco și cactuși mandacaru'
   fig_title: Precipitații pe an hidrologic, Petrolina, 1963/64–2020/21
-  fig_desc: Bare pentru 47 de ani cu date valide. Precipitațiile scad cu aproximativ 60 mm pe deceniu. Cei mai secetoși ani sunt 2011/12, 2012/13 și 2016/17, toți în jur de 150 mm.
-  fig_norm: normala 1963–2009 · 549 mm
+  fig_desc: Bare pentru 47 de ani cu date valide. Precipitațiile scad cu aproximativ 60 mm pe deceniu. Cei mai secetoși ani sunt 2011/12, 2012/13 și 2016/17, între 135 și 151 mm.
+  fig_norm: media 1963/64–2008/09 · 536 mm
   fig_trend: tendință -60 mm / deceniu
   nodata: zile valide insuficiente
   fig_l: "<b>Figura 1</b>"
-  fig_c: 'Precipitații pe an hidrologic la stația INMET 82983, Petrolina, 1963/64–2020/21 (47 de ani cu date valide; cercurile goale marchează anii fără date). Linie întreruptă: norma oficială 1963–2009. Linie continuă: o tendință Sen–Theil ajustată aici pe aceeași serie, −60 mm pe deceniu; lucrarea raportează −60 [−87; −33]. <span class="pull">Un an secetos e zgomot. Șase decenii de ani secetoși sunt o tendință.</span>'
+  fig_c: 'Precipitații pe an hidrologic la stația INMET 82983, Petrolina, 1963/64–2020/21 (47 de ani cu date valide; cercurile goale marchează anii cu date insuficiente). Linie întreruptă: media celor 35 de ani valizi din 1963/64 până în 2008/09. Linie continuă: o tendință Sen–Theil ajustată aici pe aceeași serie, −60 mm pe deceniu; lucrarea raportează −60 [−87; −33]. <span class="pull">Un an secetos e zgomot. Șase decenii de ani secetoși sunt o tendință.</span>'
   tbl_l: "<b>Tabelul 1</b>"
   tbl_c: Activitatea reprezintă numărul de commit-uri pe săptămână din ultimele 52 de săptămâni, de pe GitHub. Selectează antetul unei coloane pentru a sorta.
   th_pkg: Pachet

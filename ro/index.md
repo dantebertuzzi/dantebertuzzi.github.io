@@ -37,9 +37,9 @@ Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina
 
 <div class="stats">
   <div class="stat"><div class="v">−60 <small>mm / deceniu</small></div><p>Tendința precipitațiilor anuale până în 2020/21, interval de încredere 95% între −87 și −33.</p></div>
-  <div class="stat"><div class="v">+0.40 <small>°C / deceniu</small></div><p>Temperatura minimă; între 0,19 și 0,31 după corectarea discontinuităților față de stațiile vecine. Maxima a crescut cu +0,27 °C pe deceniu.</p></div>
-  <div class="stat"><div class="v">38 → 12–18 <small>ani</small></div><p>Perioada de revenire a unui an la fel de secetos ca 2012/13: climă staționară față de sfârșitul seriei sub tendința liniară (circa 27 dacă scăderea a fost o treaptă).</p></div>
-  <div class="stat"><div class="v">6 <small>stații</small></div><p>Analiză regională de frecvență, verificată cu pluviometrele ANA și normalele INMET.</p></div>
+  <div class="stat"><div class="v">+0.40 <small>°C / deceniu</small></div><p>Temperatura minimă; între 0,19 și 0,31 după corectarea discontinuităților față de stațiile vecine. Maxima a crescut cu +0,27 °C pe deceniu (0,19 după corectare).</p></div>
+  <div class="stat"><div class="v">38 → 12–18 <small>ani</small></div><p>Perioada de revenire a unui an la fel de secetos ca 2012/13: climă staționară față de sfârșitul seriei sub tendința liniară (circa 27 dacă scăderea a fost o treaptă). Anii ploioși 2021/22–2024/25 sugerează că finalul dreptei exagerează seceta actuală.</p></div>
+  <div class="stat"><div class="v">6 <small>stații</small></div><p>Analiză regională de frecvență: stația 82983 și cele 5 pluviometre ANA, 291 de ani-stație.</p></div>
 </div>
 </section>
 

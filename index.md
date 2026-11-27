@@ -37,9 +37,9 @@ Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina
 
 <div class="stats">
   <div class="stat"><div class="v">−60 <small>mm / década</small></div><p>Tendência da chuva anual até 2020/21, intervalo de 95% de −87 a −33.</p></div>
-  <div class="stat"><div class="v">+0.40 <small>°C / década</small></div><p>Temperatura mínima; de 0,19 a 0,31 corrigindo quebras frente às vizinhas. A máxima subiu +0,27 °C por década.</p></div>
-  <div class="stat"><div class="v">38 → 12–18 <small>anos</small></div><p>Período de retorno de um ano tão seco quanto 2012/13: clima estacionário vs. fim da série sob a tendência linear (cerca de 27 se a queda foi um degrau).</p></div>
-  <div class="stat"><div class="v">6 <small>estações</small></div><p>Análise regional de frequência, conferida com os pluviômetros da ANA e as normais do INMET.</p></div>
+  <div class="stat"><div class="v">+0.40 <small>°C / década</small></div><p>Temperatura mínima; de 0,19 a 0,31 corrigindo quebras frente às vizinhas. A máxima subiu +0,27 °C por década (0,19 com a correção).</p></div>
+  <div class="stat"><div class="v">38 → 12–18 <small>anos</small></div><p>Período de retorno de um ano tão seco quanto 2012/13: clima estacionário vs. fim da série sob a tendência linear (cerca de 27 se a queda foi um degrau). Os anos chuvosos de 2021/22 a 2024/25 sugerem que o fim da reta exagera a seca atual.</p></div>
+  <div class="stat"><div class="v">6 <small>estações</small></div><p>Análise regional de frequência: a 82983 e os 5 pluviômetros da ANA, 291 anos-estação.</p></div>
 </div>
 </section>
 

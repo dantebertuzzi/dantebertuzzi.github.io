@@ -37,9 +37,9 @@ Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina
 
 <div class="stats">
   <div class="stat"><div class="v">−60 <small>mm / decade</small></div><p>Annual rainfall trend up to 2020/21, 95% interval −87 to −33.</p></div>
-  <div class="stat"><div class="v">+0.40 <small>°C / decade</small></div><p>Minimum temperature; 0.19 to 0.31 after correcting breaks against neighbouring stations. Maximum rose +0.27 °C per decade.</p></div>
-  <div class="stat"><div class="v">38 → 12–18 <small>years</small></div><p>Return period of a year as dry as 2012/13: stationary climate vs. end of the record under the linear trend (about 27 if the decline was a step).</p></div>
-  <div class="stat"><div class="v">6 <small>stations</small></div><p>Regional frequency analysis, cross-checked with ANA rain gauges and INMET normals.</p></div>
+  <div class="stat"><div class="v">+0.40 <small>°C / decade</small></div><p>Minimum temperature; 0.19 to 0.31 after correcting breaks against neighbouring stations. Maximum rose +0.27 °C per decade (0.19 after correction).</p></div>
+  <div class="stat"><div class="v">38 → 12–18 <small>years</small></div><p>Return period of a year as dry as 2012/13: stationary climate vs. end of the record under the linear trend (about 27 if the decline was a step). The wet years 2021/22–2024/25 suggest the end of the line overstates the current dryness.</p></div>
+  <div class="stat"><div class="v">6 <small>stations</small></div><p>Regional frequency analysis: station 82983 and the 5 ANA rain gauges, 291 station-years.</p></div>
 </div>
 </section>
 

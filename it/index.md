@@ -37,9 +37,9 @@ Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina
 
 <div class="stats">
   <div class="stat"><div class="v">−60 <small>mm / decennio</small></div><p>Tendenza delle precipitazioni annue fino al 2020/21, intervallo al 95% da −87 a −33.</p></div>
-  <div class="stat"><div class="v">+0.40 <small>°C / decennio</small></div><p>Temperatura minima; da 0,19 a 0,31 correggendo le discontinuità rispetto alle stazioni vicine. La massima è salita di +0,27 °C per decennio.</p></div>
-  <div class="stat"><div class="v">38 → 12–18 <small>anni</small></div><p>Tempo di ritorno di un anno secco come il 2012/13: clima stazionario contro fine della serie con la tendenza lineare (circa 27 se il calo è stato un gradino).</p></div>
-  <div class="stat"><div class="v">6 <small>stazioni</small></div><p>Analisi regionale di frequenza, verificata con i pluviometri ANA e le normali INMET.</p></div>
+  <div class="stat"><div class="v">+0.40 <small>°C / decennio</small></div><p>Temperatura minima; da 0,19 a 0,31 correggendo le discontinuità rispetto alle stazioni vicine. La massima è salita di +0,27 °C per decennio (0,19 con la correzione).</p></div>
+  <div class="stat"><div class="v">38 → 12–18 <small>anni</small></div><p>Tempo di ritorno di un anno secco come il 2012/13: clima stazionario contro fine della serie con la tendenza lineare (circa 27 se il calo è stato un gradino). Gli anni piovosi dal 2021/22 al 2024/25 suggeriscono che la fine della retta esagera la siccità attuale.</p></div>
+  <div class="stat"><div class="v">6 <small>stazioni</small></div><p>Analisi regionale di frequenza: la stazione 82983 e i 5 pluviometri ANA, 291 anni-stazione.</p></div>
 </div>
 </section>
 

@@ -37,9 +37,9 @@ Bertuzzi, D. de S. (2026). <span class="t">Menos chuva e mais calor em Petrolina
 
 <div class="stats">
   <div class="stat"><div class="v">−60 <small>mm / évtized</small></div><p>Az éves csapadék trendje 2020/21-ig, 95%-os intervallum: −87 és −33 között.</p></div>
-  <div class="stat"><div class="v">+0.40 <small>°C / évtized</small></div><p>Minimumhőmérséklet; a szomszédos állomásokhoz mért törések korrekciójával 0,19–0,31. A maximum évtizedenként +0,27 °C-kal nőtt.</p></div>
-  <div class="stat"><div class="v">38 → 12–18 <small>év</small></div><p>A 2012/13-ashoz hasonlóan száraz év visszatérési ideje: stacionárius éghajlat vs. a sor vége a lineáris trend szerint (kb. 27, ha a csökkenés lépcsőszerű volt).</p></div>
-  <div class="stat"><div class="v">6 <small>állomás</small></div><p>Regionális gyakoriságelemzés, az ANA csapadékmérőivel és az INMET normál értékeivel ellenőrizve.</p></div>
+  <div class="stat"><div class="v">+0.40 <small>°C / évtized</small></div><p>Minimumhőmérséklet; a szomszédos állomásokhoz mért törések korrekciójával 0,19–0,31. A maximum évtizedenként +0,27 °C-kal nőtt (korrekcióval 0,19).</p></div>
+  <div class="stat"><div class="v">38 → 12–18 <small>év</small></div><p>A 2012/13-ashoz hasonlóan száraz év visszatérési ideje: stacionárius éghajlat vs. a sor vége a lineáris trend szerint (kb. 27, ha a csökkenés lépcsőszerű volt). A 2021/22 és 2024/25 közötti csapadékos évek arra utalnak, hogy az egyenes vége eltúlozza a mostani szárazságot.</p></div>
+  <div class="stat"><div class="v">6 <small>állomás</small></div><p>Regionális gyakoriságelemzés: a 82983-as állomás és az ANA 5 csapadékmérője, 291 állomásév.</p></div>
 </div>
 </section>
 
